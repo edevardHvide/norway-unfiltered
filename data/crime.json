@@ -1,0 +1,4370 @@
+[
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 61.5
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 61.5
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.1
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.1
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 8.6
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 8.6
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.8
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.8
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 19.2
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 19.2
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.4
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.4
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.8
+  },
+  {
+    "year": 2020,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.8
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 48.1
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 48.1
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.8
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.8
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 9.5
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 9.5
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 11.6
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 11.6
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2020,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 38.3
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 38.3
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.4
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.4
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 2.7
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 2.7
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 2
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 2
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.4
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.4
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2020,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 43.7
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 43.7
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.9
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.9
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 8.6
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 8.6
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.3
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.3
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.7
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.7
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.2
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.2
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2020,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 89.9
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 89.9
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 7.8
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 7.8
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 33.8
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 33.8
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.1
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.1
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 11.4
+  },
+  {
+    "year": 2020,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 11.4
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 51.2
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 51.2
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.9
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.9
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 7.2
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 7.2
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.4
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.4
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 16.1
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 16.1
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2020,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2020,
+    "county": "Troms og Finnmark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 55.1
+  },
+  {
+    "year": 2020,
+    "county": "Troms og Finnmark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.5
+  },
+  {
+    "year": 2020,
+    "county": "Troms og Finnmark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2020,
+    "county": "Troms og Finnmark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.7
+  },
+  {
+    "year": 2020,
+    "county": "Troms og Finnmark",
+    "offence": "Property theft",
+    "rate_per_1000": 10.2
+  },
+  {
+    "year": 2020,
+    "county": "Troms og Finnmark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.7
+  },
+  {
+    "year": 2020,
+    "county": "Troms og Finnmark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 10.8
+  },
+  {
+    "year": 2020,
+    "county": "Troms og Finnmark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.1
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 49.5
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 49.5
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.4
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.4
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 13.4
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 13.4
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.9
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.9
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2020,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2020,
+    "county": "Vestfold og Telemark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 58.5
+  },
+  {
+    "year": 2020,
+    "county": "Vestfold og Telemark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2020,
+    "county": "Vestfold og Telemark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 9.3
+  },
+  {
+    "year": 2020,
+    "county": "Vestfold og Telemark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.8
+  },
+  {
+    "year": 2020,
+    "county": "Vestfold og Telemark",
+    "offence": "Property theft",
+    "rate_per_1000": 16.5
+  },
+  {
+    "year": 2020,
+    "county": "Vestfold og Telemark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.1
+  },
+  {
+    "year": 2020,
+    "county": "Vestfold og Telemark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 9.5
+  },
+  {
+    "year": 2020,
+    "county": "Vestfold og Telemark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 43.8
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 43.8
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.5
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.5
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 12.1
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 12.1
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.1
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.1
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.6
+  },
+  {
+    "year": 2020,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.6
+  },
+  {
+    "year": 2020,
+    "county": "Viken",
+    "offence": "All groups of offences",
+    "rate_per_1000": 51
+  },
+  {
+    "year": 2020,
+    "county": "Viken",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3
+  },
+  {
+    "year": 2020,
+    "county": "Viken",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 7.1
+  },
+  {
+    "year": 2020,
+    "county": "Viken",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.8
+  },
+  {
+    "year": 2020,
+    "county": "Viken",
+    "offence": "Property theft",
+    "rate_per_1000": 14.2
+  },
+  {
+    "year": 2020,
+    "county": "Viken",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1
+  },
+  {
+    "year": 2020,
+    "county": "Viken",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2020,
+    "county": "Viken",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 56.5
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 56.5
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.7
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.7
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.7
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.7
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 18
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 18
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.5
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.5
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.7
+  },
+  {
+    "year": 2021,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.7
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 44.7
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 44.7
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.4
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.4
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.8
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.8
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 8.3
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 8.3
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.7
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.7
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 11.9
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 11.9
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5
+  },
+  {
+    "year": 2021,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 34.7
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 34.7
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.5
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.5
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5
+  },
+  {
+    "year": 2021,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 39.9
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 39.9
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.8
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.8
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.4
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.4
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 6.2
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 6.2
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 2
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 2
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.4
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.4
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2021,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 81.9
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 81.9
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.2
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.2
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 7.7
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 7.7
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 30.2
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 30.2
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 10.7
+  },
+  {
+    "year": 2021,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 10.7
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 46.8
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 46.8
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.9
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.9
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 14.6
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 14.6
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2021,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2021,
+    "county": "Troms og Finnmark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 48
+  },
+  {
+    "year": 2021,
+    "county": "Troms og Finnmark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.2
+  },
+  {
+    "year": 2021,
+    "county": "Troms og Finnmark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.6
+  },
+  {
+    "year": 2021,
+    "county": "Troms og Finnmark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.5
+  },
+  {
+    "year": 2021,
+    "county": "Troms og Finnmark",
+    "offence": "Property theft",
+    "rate_per_1000": 7.9
+  },
+  {
+    "year": 2021,
+    "county": "Troms og Finnmark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2021,
+    "county": "Troms og Finnmark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 9.7
+  },
+  {
+    "year": 2021,
+    "county": "Troms og Finnmark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.4
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 48.9
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 48.9
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 13.8
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 13.8
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.2
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.2
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.9
+  },
+  {
+    "year": 2021,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.9
+  },
+  {
+    "year": 2021,
+    "county": "Vestfold og Telemark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 51.6
+  },
+  {
+    "year": 2021,
+    "county": "Vestfold og Telemark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.1
+  },
+  {
+    "year": 2021,
+    "county": "Vestfold og Telemark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2021,
+    "county": "Vestfold og Telemark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.2
+  },
+  {
+    "year": 2021,
+    "county": "Vestfold og Telemark",
+    "offence": "Property theft",
+    "rate_per_1000": 14.7
+  },
+  {
+    "year": 2021,
+    "county": "Vestfold og Telemark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.1
+  },
+  {
+    "year": 2021,
+    "county": "Vestfold og Telemark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.3
+  },
+  {
+    "year": 2021,
+    "county": "Vestfold og Telemark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.8
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 41.3
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 41.3
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.3
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.3
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.4
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.4
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 11.4
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 11.4
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.4
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.4
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2021,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2021,
+    "county": "Viken",
+    "offence": "All groups of offences",
+    "rate_per_1000": 47.9
+  },
+  {
+    "year": 2021,
+    "county": "Viken",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.7
+  },
+  {
+    "year": 2021,
+    "county": "Viken",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2021,
+    "county": "Viken",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.6
+  },
+  {
+    "year": 2021,
+    "county": "Viken",
+    "offence": "Property theft",
+    "rate_per_1000": 13
+  },
+  {
+    "year": 2021,
+    "county": "Viken",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.1
+  },
+  {
+    "year": 2021,
+    "county": "Viken",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.5
+  },
+  {
+    "year": 2021,
+    "county": "Viken",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.6
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 60.2
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 60.2
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 20.6
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 20.6
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2022,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 46.4
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 46.4
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.5
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.5
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 10.4
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 10.4
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 10.3
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 10.3
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2022,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 35.2
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 35.2
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2022,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 39.5
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 39.5
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.8
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.8
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.7
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.7
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.2
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.2
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2022,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 89.8
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 89.8
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 8.1
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 8.1
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 37.3
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 37.3
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 11.6
+  },
+  {
+    "year": 2022,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 11.6
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 50.6
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 50.6
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.2
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.2
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 17.5
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 17.5
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.6
+  },
+  {
+    "year": 2022,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.6
+  },
+  {
+    "year": 2022,
+    "county": "Troms og Finnmark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 50.3
+  },
+  {
+    "year": 2022,
+    "county": "Troms og Finnmark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.9
+  },
+  {
+    "year": 2022,
+    "county": "Troms og Finnmark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2022,
+    "county": "Troms og Finnmark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.7
+  },
+  {
+    "year": 2022,
+    "county": "Troms og Finnmark",
+    "offence": "Property theft",
+    "rate_per_1000": 8.3
+  },
+  {
+    "year": 2022,
+    "county": "Troms og Finnmark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2022,
+    "county": "Troms og Finnmark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 10.4
+  },
+  {
+    "year": 2022,
+    "county": "Troms og Finnmark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.4
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 50.7
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 50.7
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.1
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.1
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.6
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.6
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 15.9
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 15.9
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.8
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.8
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2022,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2022,
+    "county": "Vestfold og Telemark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 55.9
+  },
+  {
+    "year": 2022,
+    "county": "Vestfold og Telemark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4
+  },
+  {
+    "year": 2022,
+    "county": "Vestfold og Telemark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2022,
+    "county": "Vestfold og Telemark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.9
+  },
+  {
+    "year": 2022,
+    "county": "Vestfold og Telemark",
+    "offence": "Property theft",
+    "rate_per_1000": 16.8
+  },
+  {
+    "year": 2022,
+    "county": "Vestfold og Telemark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2022,
+    "county": "Vestfold og Telemark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.9
+  },
+  {
+    "year": 2022,
+    "county": "Vestfold og Telemark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 44.3
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 44.3
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.4
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.4
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 13.3
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 13.3
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.7
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.7
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2022,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2022,
+    "county": "Viken",
+    "offence": "All groups of offences",
+    "rate_per_1000": 51.5
+  },
+  {
+    "year": 2022,
+    "county": "Viken",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.8
+  },
+  {
+    "year": 2022,
+    "county": "Viken",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2022,
+    "county": "Viken",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2022,
+    "county": "Viken",
+    "offence": "Property theft",
+    "rate_per_1000": 16.3
+  },
+  {
+    "year": 2022,
+    "county": "Viken",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1
+  },
+  {
+    "year": 2022,
+    "county": "Viken",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.4
+  },
+  {
+    "year": 2022,
+    "county": "Viken",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.2
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 65.5
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 65.5
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 23.6
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 23.6
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.8
+  },
+  {
+    "year": 2023,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.8
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 49.2
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 49.2
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.9
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.9
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 10.6
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 10.6
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 11
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 11
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.6
+  },
+  {
+    "year": 2023,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.6
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 39.2
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 39.2
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.5
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.5
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.6
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.6
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2023,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 41.8
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 41.8
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.6
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.1
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.1
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 7.9
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 7.9
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 2.4
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 2.4
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7
+  },
+  {
+    "year": 2023,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 98.7
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 98.7
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 8.9
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 8.9
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.2
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.2
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 8.8
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 8.8
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 40.8
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 40.8
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 9.4
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 9.4
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 12.6
+  },
+  {
+    "year": 2023,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 12.6
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 54.1
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 54.1
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 20.7
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 20.7
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.1
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.1
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 5.9
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 5.9
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2023,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2023,
+    "county": "Troms og Finnmark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 55.7
+  },
+  {
+    "year": 2023,
+    "county": "Troms og Finnmark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.2
+  },
+  {
+    "year": 2023,
+    "county": "Troms og Finnmark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.4
+  },
+  {
+    "year": 2023,
+    "county": "Troms og Finnmark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.6
+  },
+  {
+    "year": 2023,
+    "county": "Troms og Finnmark",
+    "offence": "Property theft",
+    "rate_per_1000": 10.1
+  },
+  {
+    "year": 2023,
+    "county": "Troms og Finnmark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 2.2
+  },
+  {
+    "year": 2023,
+    "county": "Troms og Finnmark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 10.1
+  },
+  {
+    "year": 2023,
+    "county": "Troms og Finnmark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 9.7
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 52.7
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 52.7
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.1
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.1
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 17
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 17
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.6
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.6
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2023,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2023,
+    "county": "Vestfold og Telemark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 55.8
+  },
+  {
+    "year": 2023,
+    "county": "Vestfold og Telemark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.6
+  },
+  {
+    "year": 2023,
+    "county": "Vestfold og Telemark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.9
+  },
+  {
+    "year": 2023,
+    "county": "Vestfold og Telemark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2023,
+    "county": "Vestfold og Telemark",
+    "offence": "Property theft",
+    "rate_per_1000": 17.7
+  },
+  {
+    "year": 2023,
+    "county": "Vestfold og Telemark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.1
+  },
+  {
+    "year": 2023,
+    "county": "Vestfold og Telemark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.8
+  },
+  {
+    "year": 2023,
+    "county": "Vestfold og Telemark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.8
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 47
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 47
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.8
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.8
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.7
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 15.9
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 15.9
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2023,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2023,
+    "county": "Viken",
+    "offence": "All groups of offences",
+    "rate_per_1000": 53.3
+  },
+  {
+    "year": 2023,
+    "county": "Viken",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.2
+  },
+  {
+    "year": 2023,
+    "county": "Viken",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2023,
+    "county": "Viken",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2023,
+    "county": "Viken",
+    "offence": "Property theft",
+    "rate_per_1000": 17.3
+  },
+  {
+    "year": 2023,
+    "county": "Viken",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1
+  },
+  {
+    "year": 2023,
+    "county": "Viken",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2023,
+    "county": "Viken",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.7
+  },
+  {
+    "year": 2024,
+    "county": "Agder",
+    "offence": "All groups of offences",
+    "rate_per_1000": 62.2
+  },
+  {
+    "year": 2024,
+    "county": "Agder",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.2
+  },
+  {
+    "year": 2024,
+    "county": "Agder",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2024,
+    "county": "Agder",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2024,
+    "county": "Agder",
+    "offence": "Property theft",
+    "rate_per_1000": 22.5
+  },
+  {
+    "year": 2024,
+    "county": "Agder",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1
+  },
+  {
+    "year": 2024,
+    "county": "Agder",
+    "offence": "Traffic offences",
+    "rate_per_1000": 5.8
+  },
+  {
+    "year": 2024,
+    "county": "Agder",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.5
+  },
+  {
+    "year": 2024,
+    "county": "Akershus",
+    "offence": "All groups of offences",
+    "rate_per_1000": 52.6
+  },
+  {
+    "year": 2024,
+    "county": "Akershus",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.2
+  },
+  {
+    "year": 2024,
+    "county": "Akershus",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2024,
+    "county": "Akershus",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2024,
+    "county": "Akershus",
+    "offence": "Property theft",
+    "rate_per_1000": 18.3
+  },
+  {
+    "year": 2024,
+    "county": "Akershus",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1
+  },
+  {
+    "year": 2024,
+    "county": "Akershus",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2024,
+    "county": "Akershus",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.6
+  },
+  {
+    "year": 2024,
+    "county": "Buskerud",
+    "offence": "All groups of offences",
+    "rate_per_1000": 55.9
+  },
+  {
+    "year": 2024,
+    "county": "Buskerud",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.2
+  },
+  {
+    "year": 2024,
+    "county": "Buskerud",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2024,
+    "county": "Buskerud",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 6.6
+  },
+  {
+    "year": 2024,
+    "county": "Buskerud",
+    "offence": "Property theft",
+    "rate_per_1000": 18.9
+  },
+  {
+    "year": 2024,
+    "county": "Buskerud",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1
+  },
+  {
+    "year": 2024,
+    "county": "Buskerud",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.9
+  },
+  {
+    "year": 2024,
+    "county": "Buskerud",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.7
+  },
+  {
+    "year": 2024,
+    "county": "Finnmark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 62.7
+  },
+  {
+    "year": 2024,
+    "county": "Finnmark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.1
+  },
+  {
+    "year": 2024,
+    "county": "Finnmark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2024,
+    "county": "Finnmark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.7
+  },
+  {
+    "year": 2024,
+    "county": "Finnmark",
+    "offence": "Property theft",
+    "rate_per_1000": 9.4
+  },
+  {
+    "year": 2024,
+    "county": "Finnmark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 2.2
+  },
+  {
+    "year": 2024,
+    "county": "Finnmark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 11.2
+  },
+  {
+    "year": 2024,
+    "county": "Finnmark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 11
+  },
+  {
+    "year": 2024,
+    "county": "Innlandet",
+    "offence": "All groups of offences",
+    "rate_per_1000": 51
+  },
+  {
+    "year": 2024,
+    "county": "Innlandet",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3
+  },
+  {
+    "year": 2024,
+    "county": "Innlandet",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5
+  },
+  {
+    "year": 2024,
+    "county": "Innlandet",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 7.1
+  },
+  {
+    "year": 2024,
+    "county": "Innlandet",
+    "offence": "Property theft",
+    "rate_per_1000": 10.8
+  },
+  {
+    "year": 2024,
+    "county": "Innlandet",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2024,
+    "county": "Innlandet",
+    "offence": "Traffic offences",
+    "rate_per_1000": 10.6
+  },
+  {
+    "year": 2024,
+    "county": "Innlandet",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.9
+  },
+  {
+    "year": 2024,
+    "county": "More og Romsdal",
+    "offence": "All groups of offences",
+    "rate_per_1000": 43.8
+  },
+  {
+    "year": 2024,
+    "county": "More og Romsdal",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.5
+  },
+  {
+    "year": 2024,
+    "county": "More og Romsdal",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.6
+  },
+  {
+    "year": 2024,
+    "county": "More og Romsdal",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.4
+  },
+  {
+    "year": 2024,
+    "county": "More og Romsdal",
+    "offence": "Property theft",
+    "rate_per_1000": 8.8
+  },
+  {
+    "year": 2024,
+    "county": "More og Romsdal",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.4
+  },
+  {
+    "year": 2024,
+    "county": "More og Romsdal",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.8
+  },
+  {
+    "year": 2024,
+    "county": "More og Romsdal",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.6
+  },
+  {
+    "year": 2024,
+    "county": "Nordland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 45.7
+  },
+  {
+    "year": 2024,
+    "county": "Nordland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.7
+  },
+  {
+    "year": 2024,
+    "county": "Nordland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.1
+  },
+  {
+    "year": 2024,
+    "county": "Nordland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.5
+  },
+  {
+    "year": 2024,
+    "county": "Nordland",
+    "offence": "Property theft",
+    "rate_per_1000": 8.7
+  },
+  {
+    "year": 2024,
+    "county": "Nordland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.6
+  },
+  {
+    "year": 2024,
+    "county": "Nordland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8
+  },
+  {
+    "year": 2024,
+    "county": "Nordland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.8
+  },
+  {
+    "year": 2024,
+    "county": "Oslo",
+    "offence": "All groups of offences",
+    "rate_per_1000": 98.1
+  },
+  {
+    "year": 2024,
+    "county": "Oslo",
+    "offence": "Criminal damage",
+    "rate_per_1000": 6.5
+  },
+  {
+    "year": 2024,
+    "county": "Oslo",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.7
+  },
+  {
+    "year": 2024,
+    "county": "Oslo",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 9
+  },
+  {
+    "year": 2024,
+    "county": "Oslo",
+    "offence": "Property theft",
+    "rate_per_1000": 41.5
+  },
+  {
+    "year": 2024,
+    "county": "Oslo",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2024,
+    "county": "Oslo",
+    "offence": "Traffic offences",
+    "rate_per_1000": 9.6
+  },
+  {
+    "year": 2024,
+    "county": "Oslo",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 12.7
+  },
+  {
+    "year": 2024,
+    "county": "Ostfold",
+    "offence": "All groups of offences",
+    "rate_per_1000": 61.8
+  },
+  {
+    "year": 2024,
+    "county": "Ostfold",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.3
+  },
+  {
+    "year": 2024,
+    "county": "Ostfold",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 7.1
+  },
+  {
+    "year": 2024,
+    "county": "Ostfold",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2024,
+    "county": "Ostfold",
+    "offence": "Property theft",
+    "rate_per_1000": 17.7
+  },
+  {
+    "year": 2024,
+    "county": "Ostfold",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.3
+  },
+  {
+    "year": 2024,
+    "county": "Ostfold",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.8
+  },
+  {
+    "year": 2024,
+    "county": "Ostfold",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.3
+  },
+  {
+    "year": 2024,
+    "county": "Rogaland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 54.6
+  },
+  {
+    "year": 2024,
+    "county": "Rogaland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.4
+  },
+  {
+    "year": 2024,
+    "county": "Rogaland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.4
+  },
+  {
+    "year": 2024,
+    "county": "Rogaland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 4.8
+  },
+  {
+    "year": 2024,
+    "county": "Rogaland",
+    "offence": "Property theft",
+    "rate_per_1000": 19
+  },
+  {
+    "year": 2024,
+    "county": "Rogaland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2024,
+    "county": "Rogaland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2024,
+    "county": "Rogaland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.6
+  },
+  {
+    "year": 2024,
+    "county": "Telemark",
+    "offence": "All groups of offences",
+    "rate_per_1000": 59.4
+  },
+  {
+    "year": 2024,
+    "county": "Telemark",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.9
+  },
+  {
+    "year": 2024,
+    "county": "Telemark",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2024,
+    "county": "Telemark",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 6.1
+  },
+  {
+    "year": 2024,
+    "county": "Telemark",
+    "offence": "Property theft",
+    "rate_per_1000": 17.3
+  },
+  {
+    "year": 2024,
+    "county": "Telemark",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2024,
+    "county": "Telemark",
+    "offence": "Traffic offences",
+    "rate_per_1000": 8.5
+  },
+  {
+    "year": 2024,
+    "county": "Telemark",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 9.6
+  },
+  {
+    "year": 2024,
+    "county": "Troms",
+    "offence": "All groups of offences",
+    "rate_per_1000": 55.1
+  },
+  {
+    "year": 2024,
+    "county": "Troms",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.4
+  },
+  {
+    "year": 2024,
+    "county": "Troms",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 5.5
+  },
+  {
+    "year": 2024,
+    "county": "Troms",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.3
+  },
+  {
+    "year": 2024,
+    "county": "Troms",
+    "offence": "Property theft",
+    "rate_per_1000": 12.4
+  },
+  {
+    "year": 2024,
+    "county": "Troms",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.9
+  },
+  {
+    "year": 2024,
+    "county": "Troms",
+    "offence": "Traffic offences",
+    "rate_per_1000": 9.5
+  },
+  {
+    "year": 2024,
+    "county": "Troms",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 8.8
+  },
+  {
+    "year": 2024,
+    "county": "Trondelag",
+    "offence": "All groups of offences",
+    "rate_per_1000": 56.5
+  },
+  {
+    "year": 2024,
+    "county": "Trondelag",
+    "offence": "Criminal damage",
+    "rate_per_1000": 4.6
+  },
+  {
+    "year": 2024,
+    "county": "Trondelag",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.9
+  },
+  {
+    "year": 2024,
+    "county": "Trondelag",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 6
+  },
+  {
+    "year": 2024,
+    "county": "Trondelag",
+    "offence": "Property theft",
+    "rate_per_1000": 18.3
+  },
+  {
+    "year": 2024,
+    "county": "Trondelag",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.5
+  },
+  {
+    "year": 2024,
+    "county": "Trondelag",
+    "offence": "Traffic offences",
+    "rate_per_1000": 7.3
+  },
+  {
+    "year": 2024,
+    "county": "Trondelag",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.2
+  },
+  {
+    "year": 2024,
+    "county": "Vestfold",
+    "offence": "All groups of offences",
+    "rate_per_1000": 57
+  },
+  {
+    "year": 2024,
+    "county": "Vestfold",
+    "offence": "Criminal damage",
+    "rate_per_1000": 3.9
+  },
+  {
+    "year": 2024,
+    "county": "Vestfold",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 6.2
+  },
+  {
+    "year": 2024,
+    "county": "Vestfold",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 6.3
+  },
+  {
+    "year": 2024,
+    "county": "Vestfold",
+    "offence": "Property theft",
+    "rate_per_1000": 18.9
+  },
+  {
+    "year": 2024,
+    "county": "Vestfold",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2024,
+    "county": "Vestfold",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.8
+  },
+  {
+    "year": 2024,
+    "county": "Vestfold",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 7.6
+  },
+  {
+    "year": 2024,
+    "county": "Vestland",
+    "offence": "All groups of offences",
+    "rate_per_1000": 47.6
+  },
+  {
+    "year": 2024,
+    "county": "Vestland",
+    "offence": "Criminal damage",
+    "rate_per_1000": 2.8
+  },
+  {
+    "year": 2024,
+    "county": "Vestland",
+    "offence": "Drug and alcohol offences",
+    "rate_per_1000": 4.5
+  },
+  {
+    "year": 2024,
+    "county": "Vestland",
+    "offence": "Other offences for profit",
+    "rate_per_1000": 5.2
+  },
+  {
+    "year": 2024,
+    "county": "Vestland",
+    "offence": "Property theft",
+    "rate_per_1000": 15.8
+  },
+  {
+    "year": 2024,
+    "county": "Vestland",
+    "offence": "Sexual offences",
+    "rate_per_1000": 1.2
+  },
+  {
+    "year": 2024,
+    "county": "Vestland",
+    "offence": "Traffic offences",
+    "rate_per_1000": 6.7
+  },
+  {
+    "year": 2024,
+    "county": "Vestland",
+    "offence": "Violence and maltreatment",
+    "rate_per_1000": 6.4
+  }
+]

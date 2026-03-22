@@ -1,0 +1,12 @@
+[
+  {"category": "Meat", "nok_per_year": 11764},
+  {"category": "Cereals and cereal products", "nok_per_year": 7987},
+  {"category": "Vegetables", "nok_per_year": 7340},
+  {"category": "Sugar, confectionery and desserts", "nok_per_year": 6029},
+  {"category": "Bread and bakery products", "nok_per_year": 6054},
+  {"category": "Fruits and nuts", "nok_per_year": 4829},
+  {"category": "Cheese", "nok_per_year": 3846},
+  {"category": "Fish and seafood", "nok_per_year": 3634},
+  {"category": "Coffee", "nok_per_year": 1562},
+  {"category": "Alcoholic beverages", "nok_per_year": 8888}
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "year": 1851,
+    "spirits": 4.68,
+    "wine": 0.1,
+    "beer": 0.69,
+    "alcopops": 0,
+    "total": 5.47
+  },
+  {
+    "year": 1852,
+    "spirits": 4.54,
+    "wine": 0.11,
+    "beer": 0.73,
+    "alcopops": 0,
+    "total": 5.38
+  },
+  {
+    "year": 1853,
+    "spirits": 4.46,
+    "wine": 0.1,
+    "beer": 0.75,
+    "alcopops": 0,
+    "total": 5.31
+  },
+  {
+    "year": 1854,
+    "spirits": 4.58,
+    "wine": 0.11,
+    "beer": 0.89,
+    "alcopops": 0,
+    "total": 5.58
+  },
+  {
+    "year": 1855,
+    "spirits": 4.93,
+    "wine": 0.1,
+    "beer": 1.01,
+    "alcopops": 0,
+    "total": 6.04
+  },
+  {
+    "year": 1856,
+    "spirits": 5.12,
+    "wine": 0.09,
+    "beer": 1.13,
+    "alcopops": 0,
+    "total": 6.34
+  },
+  {
+    "year": 1857,
+    "spirits": 4.73,
+    "wine": 0.06,
+    "beer": 1.25,
+    "alcopops": 0,
+    "total": 6.04
+  },
+  {
+    "year": 1858,
+    "spirits": 4.56,
+    "wine": 0.05,
+    "beer": 1.37,
+    "alcopops": 0,
+    "total": 5.98
+  },
+  {
+    "year": 1859,
+    "spirits": 4.15,
+    "wine": 0.09,
+    "beer": 1.46,
+    "alcopops": 0,
+    "total": 5.7
+  },
+  {
+    "year": 1860,
+    "spirits": 3.86,
+    "wine": 0.06,
+    "beer": 1.46,
+    "alcopops": 0,
+    "total": 5.38
+  },
+  {
+    "year": 1861,
+    "spirits": 3.83,
+    "wine": 0.07,
+    "beer": 1.06,
+    "alcopops": 0,
+    "total": 4.96
+  },
+  {
+    "year": 1862,
+    "spirits": 3.46,
+    "wine": 0.06,
+    "beer": 1.07,
+    "alcopops": 0,
+    "total": 4.59
+  },
+  {
+    "year": 1863,
+    "spirits": 3.06,
+    "wine": 0.07,
+    "beer": 1.09,
+    "alcopops": 0,
+    "total": 4.22
+  },
+  {
+    "year": 1864,
+    "spirits": 3.41,
+    "wine": 0.07,
+    "beer": 1.14,
+    "alcopops": 0,
+    "total": 4.62
+  },
+  {
+    "year": 1865,
+    "spirits": 3.51,
+    "wine": 0.08,
+    "beer": 1.05,
+    "alcopops": 0,
+    "total": 4.64
+  },
+  {
+    "year": 1866,
+    "spirits": 3.98,
+    "wine": 0.1,
+    "beer": 0.92,
+    "alcopops": 0,
+    "total": 5
+  },
+  {
+    "year": 1867,
+    "spirits": 3.88,
+    "wine": 0.09,
+    "beer": 0.96,
+    "alcopops": 0,
+    "total": 4.93
+  },
+  {
+    "year": 1868,
+    "spirits": 3.93,
+    "wine": 0.09,
+    "beer": 0.93,
+    "alcopops": 0,
+    "total": 4.95
+  },
+  {
+    "year": 1869,
+    "spirits": 3.96,
+    "wine": 0.1,
+    "beer": 0.89,
+    "alcopops": 0,
+    "total": 4.95
+  },
+  {
+    "year": 1870,
+    "spirits": 3.21,
+    "wine": 0.09,
+    "beer": 0.94,
+    "alcopops": 0,
+    "total": 4.24
+  },
+  {
+    "year": 1871,
+    "spirits": 3.82,
+    "wine": 0.1,
+    "beer": 0.99,
+    "alcopops": 0,
+    "total": 4.91
+  },
+  {
+    "year": 1872,
+    "spirits": 3.69,
+    "wine": 0.12,
+    "beer": 1.04,
+    "alcopops": 0,
+    "total": 4.85
+  },
+  {
+    "year": 1873,
+    "spirits": 3.81,
+    "wine": 0.15,
+    "beer": 1.27,
+    "alcopops": 0,
+    "total": 5.23
+  },
+  {
+    "year": 1874,
+    "spirits": 4.7,
+    "wine": 0.16,
+    "beer": 1.48,
+    "alcopops": 0,
+    "total": 6.34
+  },
+  {
+    "year": 1875,
+    "spirits": 4.98,
+    "wine": 0.16,
+    "beer": 1.78,
+    "alcopops": 0,
+    "total": 6.92
+  },
+  {
+    "year": 1876,
+    "spirits": 5.07,
+    "wine": 0.15,
+    "beer": 1.65,
+    "alcopops": 0,
+    "total": 6.87
+  },
+  {
+    "year": 1877,
+    "spirits": 4.74,
+    "wine": 0.16,
+    "beer": 1.66,
+    "alcopops": 0,
+    "total": 6.56
+  },
+  {
+    "year": 1878,
+    "spirits": 3.81,
+    "wine": 0.13,
+    "beer": 1.63,
+    "alcopops": 0,
+    "total": 5.57
+  },
+  {
+    "year": 1879,
+    "spirits": 2.79,
+    "wine": 0.11,
+    "beer": 1.41,
+    "alcopops": 0,
+    "total": 4.31
+  },
+  {
+    "year": 1880,
+    "spirits": 2.79,
+    "wine": 0.13,
+    "beer": 1.39,
+    "alcopops": 0,
+    "total": 4.31
+  },
+  {
+    "year": 1881,
+    "spirits": 2.51,
+    "wine": 0.14,
+    "beer": 1.35,
+    "alcopops": 0,
+    "total": 4
+  },
+  {
+    "year": 1882,
+    "spirits": 2.67,
+    "wine": 0.14,
+    "beer": 1.35,
+    "alcopops": 0,
+    "total": 4.16
+  },
+  {
+    "year": 1883,
+    "spirits": 2.64,
+    "wine": 0.13,
+    "beer": 1.44,
+    "alcopops": 0,
+    "total": 4.21
+  },
+  {
+    "year": 1884,
+    "spirits": 2.61,
+    "wine": 0.13,
+    "beer": 1.41,
+    "alcopops": 0,
+    "total": 4.15
+  },
+  {
+    "year": 1885,
+    "spirits": 2.68,
+    "wine": 0.12,
+    "beer": 1.44,
+    "alcopops": 0,
+    "total": 4.24
+  },
+  {
+    "year": 1886,
+    "spirits": 2.43,
+    "wine": 0.12,
+    "beer": 1.13,
+    "alcopops": 0,
+    "total": 3.68
+  },
+  {
+    "year": 1887,
+    "spirits": 2.2,
+    "wine": 0.11,
+    "beer": 1.14,
+    "alcopops": 0,
+    "total": 3.45
+  },
+  {
+    "year": 1888,
+    "spirits": 2.28,
+    "wine": 0.13,
+    "beer": 1.32,
+    "alcopops": 0,
+    "total": 3.73
+  },
+  {
+    "year": 1889,
+    "spirits": 2.43,
+    "wine": 0.15,
+    "beer": 1.31,
+    "alcopops": 0,
+    "total": 3.89
+  },
+  {
+    "year": 1890,
+    "spirits": 2.41,
+    "wine": 0.17,
+    "beer": 1.62,
+    "alcopops": 0,
+    "total": 4.2
+  },
+  {
+    "year": 1891,
+    "spirits": 2.67,
+    "wine": 0.23,
+    "beer": 1.83,
+    "alcopops": 0,
+    "total": 4.73
+  },
+  {
+    "year": 1892,
+    "spirits": 2.54,
+    "wine": 0.17,
+    "beer": 1.73,
+    "alcopops": 0,
+    "total": 4.44
+  },
+  {
+    "year": 1893,
+    "spirits": 2.57,
+    "wine": 0.14,
+    "beer": 1.77,
+    "alcopops": 0,
+    "total": 4.48
+  },
+  {
+    "year": 1894,
+    "spirits": 2.77,
+    "wine": 0.17,
+    "beer": 1.74,
+    "alcopops": 0,
+    "total": 4.68
+  },
+  {
+    "year": 1895,
+    "spirits": 2.64,
+    "wine": 0.22,
+    "beer": 1.52,
+    "alcopops": 0,
+    "total": 4.38
+  },
+  {
+    "year": 1896,
+    "spirits": 1.96,
+    "wine": 0.55,
+    "beer": 1.4,
+    "alcopops": 0,
+    "total": 3.91
+  },
+  {
+    "year": 1897,
+    "spirits": 1.59,
+    "wine": 0.61,
+    "beer": 1.53,
+    "alcopops": 0,
+    "total": 3.73
+  },
+  {
+    "year": 1898,
+    "spirits": 1.75,
+    "wine": 0.51,
+    "beer": 1.84,
+    "alcopops": 0,
+    "total": 4.1
+  },
+  {
+    "year": 1899,
+    "spirits": 2.18,
+    "wine": 0.42,
+    "beer": 1.98,
+    "alcopops": 0,
+    "total": 4.58
+  },
+  {
+    "year": 1900,
+    "spirits": 2.41,
+    "wine": 0.43,
+    "beer": 1.9,
+    "alcopops": 0,
+    "total": 4.74
+  },
+  {
+    "year": 1901,
+    "spirits": 2.44,
+    "wine": 0.37,
+    "beer": 1.73,
+    "alcopops": 0,
+    "total": 4.54
+  },
+  {
+    "year": 1902,
+    "spirits": 2.41,
+    "wine": 0.41,
+    "beer": 1.62,
+    "alcopops": 0,
+    "total": 4.44
+  },
+  {
+    "year": 1903,
+    "spirits": 2.27,
+    "wine": 0.34,
+    "beer": 1.32,
+    "alcopops": 0,
+    "total": 3.93
+  },
+  {
+    "year": 1904,
+    "spirits": 2.25,
+    "wine": 0.13,
+    "beer": 1.24,
+    "alcopops": 0,
+    "total": 3.62
+  },
+  {
+    "year": 1905,
+    "spirits": 1.92,
+    "wine": 0.13,
+    "beer": 1.23,
+    "alcopops": 0,
+    "total": 3.28
+  },
+  {
+    "year": 1906,
+    "spirits": 1.92,
+    "wine": 0.16,
+    "beer": 1.13,
+    "alcopops": 0,
+    "total": 3.21
+  },
+  {
+    "year": 1907,
+    "spirits": 2.06,
+    "wine": 0.17,
+    "beer": 1.11,
+    "alcopops": 0,
+    "total": 3.34
+  },
+  {
+    "year": 1908,
+    "spirits": 2.14,
+    "wine": 0.17,
+    "beer": 1.1,
+    "alcopops": 0,
+    "total": 3.41
+  },
+  {
+    "year": 1909,
+    "spirits": 2.24,
+    "wine": 0.18,
+    "beer": 1.17,
+    "alcopops": 0,
+    "total": 3.59
+  },
+  {
+    "year": 1910,
+    "spirits": 2.44,
+    "wine": 0.21,
+    "beer": 1.19,
+    "alcopops": 0,
+    "total": 3.84
+  },
+  {
+    "year": 1911,
+    "spirits": 2.45,
+    "wine": 0.21,
+    "beer": 1.28,
+    "alcopops": 0,
+    "total": 3.94
+  },
+  {
+    "year": 1912,
+    "spirits": 2.63,
+    "wine": 0.23,
+    "beer": 1.36,
+    "alcopops": 0,
+    "total": 4.22
+  },
+  {
+    "year": 1913,
+    "spirits": 2.75,
+    "wine": 0.24,
+    "beer": 1.28,
+    "alcopops": 0,
+    "total": 4.27
+  },
+  {
+    "year": 1914,
+    "spirits": 2.35,
+    "wine": 0.27,
+    "beer": 1.37,
+    "alcopops": 0,
+    "total": 3.99
+  },
+  {
+    "year": 1915,
+    "spirits": 2.36,
+    "wine": 0.31,
+    "beer": 1.27,
+    "alcopops": 0,
+    "total": 3.94
+  },
+  {
+    "year": 1916,
+    "spirits": 2.51,
+    "wine": 0.46,
+    "beer": 1.53,
+    "alcopops": 0,
+    "total": 4.5
+  },
+  {
+    "year": 1917,
+    "spirits": 0,
+    "wine": 0.34,
+    "beer": 1.15,
+    "alcopops": 0,
+    "total": 0
+  },
+  {
+    "year": 1918,
+    "spirits": 0,
+    "wine": 0.31,
+    "beer": 0.3,
+    "alcopops": 0,
+    "total": 0
+  },
+  {
+    "year": 1919,
+    "spirits": 0,
+    "wine": 0.93,
+    "beer": 0.97,
+    "alcopops": 0,
+    "total": 0
+  },
+  {
+    "year": 1920,
+    "spirits": 0,
+    "wine": 0.82,
+    "beer": 1.99,
+    "alcopops": 0,
+    "total": 0
+  },
+  {
+    "year": 1921,
+    "spirits": 0.64,
+    "wine": 0.3,
+    "beer": 2.05,
+    "alcopops": 0,
+    "total": 2.99
+  },
+  {
+    "year": 1922,
+    "spirits": 0.65,
+    "wine": 0.24,
+    "beer": 2.03,
+    "alcopops": 0,
+    "total": 2.92
+  },
+  {
+    "year": 1923,
+    "spirits": 0.83,
+    "wine": 0.39,
+    "beer": 1.82,
+    "alcopops": 0,
+    "total": 3.04
+  },
+  {
+    "year": 1924,
+    "spirits": 0.56,
+    "wine": 0.67,
+    "beer": 1.61,
+    "alcopops": 0,
+    "total": 2.84
+  },
+  {
+    "year": 1925,
+    "spirits": 0.37,
+    "wine": 0.96,
+    "beer": 1.74,
+    "alcopops": 0,
+    "total": 3.07
+  },
+  {
+    "year": 1926,
+    "spirits": 0.36,
+    "wine": 0.86,
+    "beer": 1.56,
+    "alcopops": 0,
+    "total": 2.78
+  },
+  {
+    "year": 1927,
+    "spirits": 1.11,
+    "wine": 0.58,
+    "beer": 1.34,
+    "alcopops": 0,
+    "total": 3.03
+  },
+  {
+    "year": 1928,
+    "spirits": 1.43,
+    "wine": 0.43,
+    "beer": 1.2,
+    "alcopops": 0,
+    "total": 3.06
+  },
+  {
+    "year": 1929,
+    "spirits": 1.41,
+    "wine": 0.42,
+    "beer": 1.16,
+    "alcopops": 0,
+    "total": 2.99
+  },
+  {
+    "year": 1930,
+    "spirits": 1.44,
+    "wine": 0.42,
+    "beer": 1.17,
+    "alcopops": 0,
+    "total": 3.03
+  },
+  {
+    "year": 1931,
+    "spirits": 1.32,
+    "wine": 0.38,
+    "beer": 0.95,
+    "alcopops": 0,
+    "total": 2.65
+  },
+  {
+    "year": 1932,
+    "spirits": 1.19,
+    "wine": 0.35,
+    "beer": 0.94,
+    "alcopops": 0,
+    "total": 2.48
+  },
+  {
+    "year": 1933,
+    "spirits": 1.17,
+    "wine": 0.32,
+    "beer": 0.86,
+    "alcopops": 0,
+    "total": 2.35
+  },
+  {
+    "year": 1934,
+    "spirits": 1.16,
+    "wine": 0.33,
+    "beer": 0.87,
+    "alcopops": 0,
+    "total": 2.36
+  },
+  {
+    "year": 1935,
+    "spirits": 1.21,
+    "wine": 0.33,
+    "beer": 0.89,
+    "alcopops": 0,
+    "total": 2.43
+  },
+  {
+    "year": 1936,
+    "spirits": 1.28,
+    "wine": 0.36,
+    "beer": 0.94,
+    "alcopops": 0,
+    "total": 2.58
+  },
+  {
+    "year": 1937,
+    "spirits": 1.38,
+    "wine": 0.4,
+    "beer": 1,
+    "alcopops": 0,
+    "total": 2.78
+  },
+  {
+    "year": 1938,
+    "spirits": 1.43,
+    "wine": 0.39,
+    "beer": 1.02,
+    "alcopops": 0,
+    "total": 2.84
+  },
+  {
+    "year": 1939,
+    "spirits": 1.43,
+    "wine": 0.37,
+    "beer": 1.05,
+    "alcopops": 0,
+    "total": 2.85
+  },
+  {
+    "year": 1940,
+    "spirits": 1.05,
+    "wine": 0.27,
+    "beer": 0.92,
+    "alcopops": 0,
+    "total": 2.24
+  },
+  {
+    "year": 1941,
+    "spirits": 1.08,
+    "wine": 0.19,
+    "beer": 0.61,
+    "alcopops": 0,
+    "total": 1.88
+  },
+  {
+    "year": 1942,
+    "spirits": 0.84,
+    "wine": 0.13,
+    "beer": 0.13,
+    "alcopops": 0,
+    "total": 1.1
+  },
+  {
+    "year": 1943,
+    "spirits": 1.49,
+    "wine": 0.06,
+    "beer": 0.13,
+    "alcopops": 0,
+    "total": 1.68
+  },
+  {
+    "year": 1944,
+    "spirits": 1.65,
+    "wine": 0.03,
+    "beer": 0.13,
+    "alcopops": 0,
+    "total": 1.81
+  },
+  {
+    "year": 1945,
+    "spirits": 1.42,
+    "wine": 0.04,
+    "beer": 0.22,
+    "alcopops": 0,
+    "total": 1.68
+  },
+  {
+    "year": 1946,
+    "spirits": 2.33,
+    "wine": 0.12,
+    "beer": 0.65,
+    "alcopops": 0,
+    "total": 3.1
+  },
+  {
+    "year": 1947,
+    "spirits": 2.11,
+    "wine": 0.17,
+    "beer": 0.78,
+    "alcopops": 0,
+    "total": 3.06
+  },
+  {
+    "year": 1948,
+    "spirits": 2.12,
+    "wine": 0.2,
+    "beer": 0.66,
+    "alcopops": 0,
+    "total": 2.98
+  },
+  {
+    "year": 1949,
+    "spirits": 1.84,
+    "wine": 0.18,
+    "beer": 0.99,
+    "alcopops": 0,
+    "total": 3.01
+  },
+  {
+    "year": 1950,
+    "spirits": 1.61,
+    "wine": 0.2,
+    "beer": 1.06,
+    "alcopops": 0,
+    "total": 2.87
+  },
+  {
+    "year": 1951,
+    "spirits": 1.4,
+    "wine": 0.23,
+    "beer": 1.13,
+    "alcopops": 0,
+    "total": 2.76
+  },
+  {
+    "year": 1952,
+    "spirits": 1.42,
+    "wine": 0.25,
+    "beer": 1.16,
+    "alcopops": 0,
+    "total": 2.83
+  },
+  {
+    "year": 1953,
+    "spirits": 1.35,
+    "wine": 0.25,
+    "beer": 1.15,
+    "alcopops": 0,
+    "total": 2.75
+  },
+  {
+    "year": 1954,
+    "spirits": 1.45,
+    "wine": 0.26,
+    "beer": 1.17,
+    "alcopops": 0,
+    "total": 2.88
+  },
+  {
+    "year": 1955,
+    "spirits": 1.51,
+    "wine": 0.25,
+    "beer": 1.35,
+    "alcopops": 0,
+    "total": 3.11
+  },
+  {
+    "year": 1956,
+    "spirits": 1.52,
+    "wine": 0.25,
+    "beer": 1.37,
+    "alcopops": 0,
+    "total": 3.14
+  },
+  {
+    "year": 1957,
+    "spirits": 1.54,
+    "wine": 0.25,
+    "beer": 1.36,
+    "alcopops": 0,
+    "total": 3.15
+  },
+  {
+    "year": 1958,
+    "spirits": 1.52,
+    "wine": 0.23,
+    "beer": 1.4,
+    "alcopops": 0,
+    "total": 3.15
+  },
+  {
+    "year": 1959,
+    "spirits": 1.61,
+    "wine": 0.25,
+    "beer": 1.47,
+    "alcopops": 0,
+    "total": 3.33
+  },
+  {
+    "year": 1960,
+    "spirits": 1.71,
+    "wine": 0.25,
+    "beer": 1.49,
+    "alcopops": 0,
+    "total": 3.45
+  },
+  {
+    "year": 1961,
+    "spirits": 1.78,
+    "wine": 0.25,
+    "beer": 1.57,
+    "alcopops": 0,
+    "total": 3.6
+  },
+  {
+    "year": 1962,
+    "spirits": 1.76,
+    "wine": 0.25,
+    "beer": 1.53,
+    "alcopops": 0,
+    "total": 3.54
+  },
+  {
+    "year": 1963,
+    "spirits": 1.79,
+    "wine": 0.26,
+    "beer": 1.61,
+    "alcopops": 0,
+    "total": 3.66
+  },
+  {
+    "year": 1964,
+    "spirits": 1.71,
+    "wine": 0.27,
+    "beer": 1.6,
+    "alcopops": 0,
+    "total": 3.58
+  },
+  {
+    "year": 1965,
+    "spirits": 1.76,
+    "wine": 0.28,
+    "beer": 1.68,
+    "alcopops": 0,
+    "total": 3.72
+  },
+  {
+    "year": 1966,
+    "spirits": 1.8,
+    "wine": 0.3,
+    "beer": 1.75,
+    "alcopops": 0,
+    "total": 3.85
+  },
+  {
+    "year": 1967,
+    "spirits": 1.88,
+    "wine": 0.33,
+    "beer": 1.84,
+    "alcopops": 0,
+    "total": 4.05
+  },
+  {
+    "year": 1968,
+    "spirits": 1.95,
+    "wine": 0.39,
+    "beer": 1.98,
+    "alcopops": 0,
+    "total": 4.32
+  },
+  {
+    "year": 1969,
+    "spirits": 1.96,
+    "wine": 0.42,
+    "beer": 2.11,
+    "alcopops": 0,
+    "total": 4.49
+  },
+  {
+    "year": 1970,
+    "spirits": 2.07,
+    "wine": 0.44,
+    "beer": 2.22,
+    "alcopops": 0,
+    "total": 4.73
+  },
+  {
+    "year": 1971,
+    "spirits": 2.1,
+    "wine": 0.48,
+    "beer": 2.35,
+    "alcopops": 0,
+    "total": 4.93
+  },
+  {
+    "year": 1972,
+    "spirits": 2.2,
+    "wine": 0.5,
+    "beer": 2.41,
+    "alcopops": 0,
+    "total": 5.11
+  },
+  {
+    "year": 1973,
+    "spirits": 2.18,
+    "wine": 0.53,
+    "beer": 2.51,
+    "alcopops": 0,
+    "total": 5.22
+  },
+  {
+    "year": 1974,
+    "spirits": 2.4,
+    "wine": 0.57,
+    "beer": 2.61,
+    "alcopops": 0,
+    "total": 5.58
+  },
+  {
+    "year": 1975,
+    "spirits": 2.42,
+    "wine": 0.59,
+    "beer": 2.62,
+    "alcopops": 0,
+    "total": 5.63
+  },
+  {
+    "year": 1976,
+    "spirits": 2.44,
+    "wine": 0.58,
+    "beer": 2.64,
+    "alcopops": 0,
+    "total": 5.66
+  },
+  {
+    "year": 1977,
+    "spirits": 2.49,
+    "wine": 0.59,
+    "beer": 2.66,
+    "alcopops": 0,
+    "total": 5.74
+  },
+  {
+    "year": 1978,
+    "spirits": 2.03,
+    "wine": 0.57,
+    "beer": 2.63,
+    "alcopops": 0,
+    "total": 5.23
+  },
+  {
+    "year": 1979,
+    "spirits": 2.35,
+    "wine": 0.64,
+    "beer": 2.66,
+    "alcopops": 0,
+    "total": 5.65
+  },
+  {
+    "year": 1980,
+    "spirits": 2.46,
+    "wine": 0.75,
+    "beer": 2.77,
+    "alcopops": 0,
+    "total": 5.98
+  },
+  {
+    "year": 1981,
+    "spirits": 2.06,
+    "wine": 0.69,
+    "beer": 2.57,
+    "alcopops": 0,
+    "total": 5.32
+  },
+  {
+    "year": 1982,
+    "spirits": 1.57,
+    "wine": 0.57,
+    "beer": 2.69,
+    "alcopops": 0,
+    "total": 4.83
+  },
+  {
+    "year": 1983,
+    "spirits": 1.63,
+    "wine": 0.65,
+    "beer": 2.57,
+    "alcopops": 0,
+    "total": 4.85
+  },
+  {
+    "year": 1984,
+    "spirits": 1.62,
+    "wine": 0.71,
+    "beer": 2.65,
+    "alcopops": 0,
+    "total": 4.98
+  },
+  {
+    "year": 1985,
+    "spirits": 1.77,
+    "wine": 0.82,
+    "beer": 2.63,
+    "alcopops": 0,
+    "total": 5.22
+  },
+  {
+    "year": 1986,
+    "spirits": 1.61,
+    "wine": 0.83,
+    "beer": 2.83,
+    "alcopops": 0,
+    "total": 5.27
+  },
+  {
+    "year": 1987,
+    "spirits": 1.63,
+    "wine": 0.93,
+    "beer": 2.82,
+    "alcopops": 0,
+    "total": 5.38
+  },
+  {
+    "year": 1988,
+    "spirits": 1.45,
+    "wine": 0.97,
+    "beer": 2.84,
+    "alcopops": 0,
+    "total": 5.26
+  },
+  {
+    "year": 1989,
+    "spirits": 1.33,
+    "wine": 0.97,
+    "beer": 2.78,
+    "alcopops": 0,
+    "total": 5.08
+  },
+  {
+    "year": 1990,
+    "spirits": 1.24,
+    "wine": 0.95,
+    "beer": 2.81,
+    "alcopops": 0,
+    "total": 4.99
+  },
+  {
+    "year": 1991,
+    "spirits": 1.12,
+    "wine": 0.93,
+    "beer": 2.85,
+    "alcopops": 0,
+    "total": 4.9
+  },
+  {
+    "year": 1992,
+    "spirits": 1,
+    "wine": 0.91,
+    "beer": 2.76,
+    "alcopops": 0,
+    "total": 4.67
+  },
+  {
+    "year": 1993,
+    "spirits": 0.96,
+    "wine": 0.92,
+    "beer": 2.67,
+    "alcopops": 0,
+    "total": 4.55
+  },
+  {
+    "year": 1994,
+    "spirits": 1,
+    "wine": 0.99,
+    "beer": 2.75,
+    "alcopops": 0,
+    "total": 4.74
+  },
+  {
+    "year": 1995,
+    "spirits": 1,
+    "wine": 1.04,
+    "beer": 2.75,
+    "alcopops": 0,
+    "total": 4.79
+  },
+  {
+    "year": 1996,
+    "spirits": 1.02,
+    "wine": 1.12,
+    "beer": 2.88,
+    "alcopops": 0.02,
+    "total": 5.04
+  },
+  {
+    "year": 1997,
+    "spirits": 1.01,
+    "wine": 1.28,
+    "beer": 2.95,
+    "alcopops": 0.04,
+    "total": 5.28
+  },
+  {
+    "year": 1998,
+    "spirits": 0,
+    "wine": 0,
+    "beer": 0,
+    "alcopops": 0,
+    "total": 0
+  },
+  {
+    "year": 1999,
+    "spirits": 1.05,
+    "wine": 1.49,
+    "beer": 2.84,
+    "alcopops": 0.06,
+    "total": 5.45
+  },
+  {
+    "year": 2000,
+    "spirits": 1.05,
+    "wine": 1.62,
+    "beer": 2.93,
+    "alcopops": 0.07,
+    "total": 5.66
+  },
+  {
+    "year": 2001,
+    "spirits": 1,
+    "wine": 1.6,
+    "beer": 2.82,
+    "alcopops": 0.07,
+    "total": 5.49
+  },
+  {
+    "year": 2002,
+    "spirits": 1.12,
+    "wine": 1.81,
+    "beer": 2.89,
+    "alcopops": 0.07,
+    "total": 5.89
+  },
+  {
+    "year": 2003,
+    "spirits": 1.22,
+    "wine": 1.84,
+    "beer": 2.76,
+    "alcopops": 0.22,
+    "total": 6.03
+  },
+  {
+    "year": 2004,
+    "spirits": 1.25,
+    "wine": 1.9,
+    "beer": 2.96,
+    "alcopops": 0.11,
+    "total": 6.22
+  },
+  {
+    "year": 2005,
+    "spirits": 1.28,
+    "wine": 2,
+    "beer": 2.98,
+    "alcopops": 0.11,
+    "total": 6.37
+  },
+  {
+    "year": 2006,
+    "spirits": 1.3,
+    "wine": 2.05,
+    "beer": 3.01,
+    "alcopops": 0.11,
+    "total": 6.46
+  },
+  {
+    "year": 2007,
+    "spirits": 1.35,
+    "wine": 2.11,
+    "beer": 3.02,
+    "alcopops": 0.12,
+    "total": 6.6
+  },
+  {
+    "year": 2008,
+    "spirits": 1.33,
+    "wine": 2.23,
+    "beer": 3.06,
+    "alcopops": 0.13,
+    "total": 6.75
+  },
+  {
+    "year": 2009,
+    "spirits": 1.31,
+    "wine": 2.28,
+    "beer": 2.96,
+    "alcopops": 0.13,
+    "total": 6.68
+  },
+  {
+    "year": 2010,
+    "spirits": 1.25,
+    "wine": 2.29,
+    "beer": 2.91,
+    "alcopops": 0.14,
+    "total": 6.59
+  },
+  {
+    "year": 2011,
+    "spirits": 1.18,
+    "wine": 2.3,
+    "beer": 2.83,
+    "alcopops": 0.13,
+    "total": 6.43
+  },
+  {
+    "year": 2012,
+    "spirits": 1.11,
+    "wine": 2.29,
+    "beer": 2.67,
+    "alcopops": 0.14,
+    "total": 6.21
+  },
+  {
+    "year": 2013,
+    "spirits": 1.09,
+    "wine": 2.3,
+    "beer": 2.68,
+    "alcopops": 0.14,
+    "total": 6.22
+  },
+  {
+    "year": 2014,
+    "spirits": 1.04,
+    "wine": 2.25,
+    "beer": 2.62,
+    "alcopops": 0.15,
+    "total": 6.06
+  },
+  {
+    "year": 2015,
+    "spirits": 1.03,
+    "wine": 2.22,
+    "beer": 2.57,
+    "alcopops": 0.15,
+    "total": 5.97
+  },
+  {
+    "year": 2016,
+    "spirits": 1.01,
+    "wine": 2.21,
+    "beer": 2.65,
+    "alcopops": 0.16,
+    "total": 6.03
+  },
+  {
+    "year": 2017,
+    "spirits": 1.01,
+    "wine": 2.19,
+    "beer": 2.63,
+    "alcopops": 0.17,
+    "total": 6
+  },
+  {
+    "year": 2018,
+    "spirits": 0.97,
+    "wine": 2.2,
+    "beer": 2.66,
+    "alcopops": 0.19,
+    "total": 6.02
+  },
+  {
+    "year": 2019,
+    "spirits": 1,
+    "wine": 2.23,
+    "beer": 2.63,
+    "alcopops": 0.19,
+    "total": 6.05
+  },
+  {
+    "year": 2020,
+    "spirits": 1.23,
+    "wine": 2.94,
+    "beer": 2.83,
+    "alcopops": 0.23,
+    "total": 7.23
+  },
+  {
+    "year": 2021,
+    "spirits": 1.27,
+    "wine": 2.96,
+    "beer": 2.94,
+    "alcopops": 0.27,
+    "total": 7.44
+  },
+  {
+    "year": 2022,
+    "spirits": 1.14,
+    "wine": 2.52,
+    "beer": 2.73,
+    "alcopops": 0.26,
+    "total": 6.64
+  },
+  {
+    "year": 2023,
+    "spirits": 1.06,
+    "wine": 2.43,
+    "beer": 2.61,
+    "alcopops": 0.26,
+    "total": 6.37
+  },
+  {
+    "year": 2024,
+    "spirits": 1.01,
+    "wine": 2.32,
+    "beer": 2.55,
+    "alcopops": 0.28,
+    "total": 6.16
+  },
+  {
+    "year": 2025,
+    "spirits": 0.95,
+    "wine": 2.25,
+    "beer": 2.49,
+    "alcopops": 0.28,
+    "total": 5.98
+  }
+]
