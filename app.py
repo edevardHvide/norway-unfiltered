@@ -297,40 +297,20 @@ with tab3:
 
     st.markdown("")
 
-    # Map of roadkill by county
-    COUNTY_COORDS = {
-        "Oslo - Oslove": {"lat": 59.91, "lon": 10.75},
-        "Rogaland": {"lat": 58.97, "lon": 5.73},
-        "Møre og Romsdal": {"lat": 62.47, "lon": 6.15},
-        "Nordland - Nordlánnda": {"lat": 67.28, "lon": 14.40},
-        "Innlandet": {"lat": 61.50, "lon": 10.47},
-        "Agder": {"lat": 58.15, "lon": 7.99},
-        "Vestland": {"lat": 60.39, "lon": 5.32},
-        "Trøndelag - Trööndelage": {"lat": 63.43, "lon": 10.40},
-        "Troms - Romsa - Tromssa": {"lat": 69.65, "lon": 18.96},
-        "Finnmark - Finnmárku - Finmarkku": {"lat": 70.07, "lon": 25.07},
-        "Akershus": {"lat": 59.87, "lon": 11.17},
-        "Buskerud": {"lat": 60.24, "lon": 9.60},
-        "Østfold": {"lat": 59.44, "lon": 11.18},
-        "Telemark": {"lat": 59.27, "lon": 9.10},
-        "Vestfold": {"lat": 59.27, "lon": 10.25},
-    }
+    # Map of roadkill by county (using pre-computed county_summary with coordinates)
+    county_summary = roadkill_raw.get("county_summary", []) if isinstance(roadkill_raw, dict) else []
 
-    # Aggregate by county for map
-    if "county" in df_rk.columns and len(df_rk) > 0:
-        county_totals = df_rk.groupby("county")["count"].sum().reset_index()
-        county_totals = county_totals[county_totals["count"] > 0]
-
+    if county_summary:
         map_rows = []
-        for _, row in county_totals.iterrows():
-            county = row["county"]
-            coords = COUNTY_COORDS.get(county)
-            if coords:
+        for cs in county_summary:
+            if cs.get("lat") and cs.get("lon") and cs.get("total", 0) > 0:
                 map_rows.append({
-                    "county": county,
-                    "total_killed": int(row["count"]),
-                    "lat": coords["lat"],
-                    "lon": coords["lon"],
+                    "county": cs["county"],
+                    "total_killed": cs["total"],
+                    "by_car": cs.get("total_killed_by_car", 0),
+                    "by_train": cs.get("total_killed_by_train", 0),
+                    "lat": cs["lat"],
+                    "lon": cs["lon"],
                 })
 
         if map_rows:
