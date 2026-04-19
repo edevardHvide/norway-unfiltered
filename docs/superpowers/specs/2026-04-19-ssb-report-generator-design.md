@@ -147,7 +147,7 @@ Claude states the chosen type in the proposal step so the user can override befo
 | 2026-04-19 | Arbeidsledighet per fylke | Dashboard | 13772 | dashboards/arbeidsledighet-per-fylke/ |
 ```
 
-Idempotent: if a row with the same path exists, update its date instead of duplicating.
+Idempotent: if a row with the same path exists, update its date in-place instead of duplicating. Rows are sorted by `Generated` descending (newest first) on every write — single source of truth for ordering, mirrored in tests.
 
 ## Templates
 
@@ -248,18 +248,17 @@ No browser automation; opening HTML in a real browser + running Streamlit dev se
 - `.claude/skills/ssb-report-generator/templates/dashboard_readme.md.j2`
 - `.claude/skills/ssb-report-generator/scripts/generate.py`
 - `.claude/skills/ssb-report-generator/references/palette.md`
-- `.claude/skills/bearingpoint-brand/SKILL.md` *(already created in this session)*
 - `output/.gitkeep`, `output/INDEX.md`
 - `tests/test_generate.py`
 
 **Updated:**
-- `requirements.txt` — replace pydeck with: `jinja2`, `pyarrow`, `requests` (keep `streamlit`, `pandas`, `plotly`)
-- `.gitignore` — `output/data/` already added (cache only, generated artifacts ARE committed so the user can browse history without regenerating)
+- `requirements.txt` — replace `pydeck` with `jinja2`, `pyarrow`, `requests` (keep `streamlit`, `pandas`, `plotly`)
+- `.gitignore` — verify `output/data/` is present; add if missing. Generated artifacts under `output/reports/` and `output/dashboards/` ARE committed so the user can browse history without regenerating.
 - `CLAUDE.md` — add a section pointing at `.claude/skills/ssb-report-generator/SKILL.md` and the `output/INDEX.md` catalog
 
 **Untouched:**
 - `scripts/install-ssb-skills.sh`
-- `.claude/skills/bearingpoint-brand/SKILL.md` (already in place)
+- `.claude/skills/bearingpoint-brand/SKILL.md` (already created in this session)
 
 ## Open questions
 
