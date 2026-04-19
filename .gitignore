@@ -8,3 +8,4 @@ venv/
 data/cache/
 .pytest_cache/
 .DS_Store
+output/data/
