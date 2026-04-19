@@ -155,16 +155,16 @@ Idempotent: if a row with the same path exists, update its date in-place instead
 
 - Single file, no build step
 - Plotly via CDN (`<script src="https://cdn.plot.ly/plotly-2.x.min.js"></script>`)
-- SSB palette + Roboto Condensed/Open Sans (fonts via Google Fonts CDN)
-- Sections: title, declarative sub-line, KPI scorecard (optional), chart `<div>`, source footer ("Kilde: SSB, tabell {id}. Sist oppdatert: {date}.")
+- BearingPoint palette + Aptos Display/Aptos (fallback Calibri); CSS variables expose the full BP token set
+- Sections: title (BP heading style), declarative sub-line, KPI scorecard (optional, Accent 1 highlight), chart `<div>` (Plotly figure pre-styled w/ BP colors), source footer (SSB attribution + BP wordmark)
 - Self-contained: opens directly in browser, no server
 
 ### `dashboard_app.py.j2` — Streamlit scaffold
 
 - Uses `streamlit`, `pandas`, `plotly` only
-- Layout: title, optional sidebar filters (one selectbox per filterable dimension from the SSB query), main chart area, KPI row, source footer
+- Layout: title (Aptos Display via inline `<style>`), optional sidebar filters (one selectbox per filterable dimension from the SSB query), main chart area, KPI row, source footer (SSB attribution + BP wordmark)
 - Loads cached parquet via `pd.read_parquet(...)` — no live SSB calls (data is captured at generation time; user "refreshes" by re-running the skill)
-- Uses SSB palette via inline CSS
+- Uses BearingPoint palette via inline CSS (same CSS variables as HTML template); Plotly figures created with BP color sequence
 
 ### `dashboard_readme.md.j2` — per-dashboard README
 
@@ -172,18 +172,25 @@ Idempotent: if a row with the same path exists, update its date in-place instead
 - Run command: `streamlit run output/dashboards/<slug>/app.py`
 - Refresh instruction: "Ask Claude in this repo: `refresh dashboard <slug>`"
 
-## Styling (defers to `ssb-dataviz`)
+## Styling (BearingPoint brand applied to SSB data)
 
-Both templates apply, without re-deciding per generation:
+Visual identity is **BearingPoint** (palette, typography, layout). Chart-type selection rules + statistical-integrity rules defer to `ssb-dataviz`. Data attribution remains SSB.
 
-- **Categorical palette (rank order):** `#1A9D49`, `#1D9DE2`, `#C78800`, `#C775A7`, `#075745`, `#0F2080`, `#A3136C`, `#471F00`, `#909090`
-- **Max 6 categories** per chart (rest grouped as "Andre" in `#909090`)
-- **Title font:** Roboto Condensed 20px bold, color `#274247`
-- **Body/axis font:** Open Sans 12–14px, color `#274247`
-- **Bars start at y=0**; no 3D, no dual axes, no pie (use donut)
-- **Source footer required:** `Kilde: SSB, tabell {table_id}. Sist oppdatert: {date}.` in `#909090`
+Both templates apply these rules without re-deciding per generation. Defined in detail in `.claude/skills/bearingpoint-brand/SKILL.md`; summarized here:
+
+- **Categorical palette (rank order):** `#99171D` (Accent 1, deep red), `#FF787A` (Accent 2, coral), `#421799` (Dark 2, purple), `#806659` (Accent 4, warm brown), `#B2A59F` (Accent 5, taupe), `#FFB1B5` (Accent 3, soft pink). Note: Accent 1 and Accent 2 must not appear on adjacent series — they read as a single hue at distance.
+- **Max 6 categories** per chart; rest grouped as "Andre" in Accent 5 (`#B2A59F`)
+- **Title font:** Aptos Display 20px bold (fallback Calibri, then system sans), color `#000000` on Light 2 (`#FAF8F7`), or `#FFFFFF` on Dark 2 (`#421799`)
+- **Body/axis font:** Aptos 12–14px (fallback Calibri), color `#000000`
+- **Page background:** Light 2 (`#FAF8F7`) for HTML reports; Streamlit dashboards use the same warm-light base via inline CSS
+- **Links:** `#A070FF`, visited `#421799`
+- **Bars start at y=0**; no 3D, no dual axes, no pie charts (use donut)
+- **Source footer required (SSB attribution):** `Kilde: SSB, tabell {table_id}. Sist oppdatert: {date}.` in Accent 5 (`#B2A59F`)
+- **BP wordmark / footer:** small "Generert av BearingPoint Norway Unfiltered" line beneath SSB attribution
 - **Number format:** Norwegian (space as thousands separator)
 - **Declarative title** (insight, not description) — Claude generates per question
+- **CSS variables:** templates expose the full BP variable set (`--bp-dark-1`, `--bp-light-1`, etc. — see brand skill) for downstream tweaks
+- **Aptos availability:** not on Google Fonts; HTML embeds via Microsoft web-font fallback (`@font-face` with `https://aka.ms/aptos`-class CDN where reachable) and falls back gracefully to Calibri/system sans. Streamlit uses inline `<style>` with the same fallback chain.
 
 ## Generator helper (`scripts/generate.py`)
 
@@ -247,7 +254,7 @@ No browser automation; opening HTML in a real browser + running Streamlit dev se
 - `.claude/skills/ssb-report-generator/templates/dashboard_app.py.j2`
 - `.claude/skills/ssb-report-generator/templates/dashboard_readme.md.j2`
 - `.claude/skills/ssb-report-generator/scripts/generate.py`
-- `.claude/skills/ssb-report-generator/references/palette.md`
+- `.claude/skills/ssb-report-generator/references/palette.md` *(BearingPoint palette + chart-type selection rules condensed; mirrors bearingpoint-brand SKILL.md so the report-generator is self-contained)*
 - `output/.gitkeep`, `output/INDEX.md`
 - `tests/test_generate.py`
 
@@ -278,5 +285,5 @@ None. All decisions locked:
 - **Slug collisions** mid-question phrasing — two genuinely different questions could slugify to the same string. Numeric suffix policy handles it; `-9` cap forces explicit naming.
 - **Streamlit dashboards rot** when the user hand-edits — generated code is overwritten on regen. Each dashboard's README documents this; if user wants to keep edits, they rename the dashboard folder before regenerating.
 - **SSB table deprecation** — cached parquet for a discontinued table still works; `ssb-api` already warns on `(avslutta serie)` tables at search time.
-- **Norwegian font availability** — Roboto Condensed + Open Sans on Google Fonts; HTML uses CDN, Streamlit uses inline `<style>`. Aptos (BearingPoint) not on Google Fonts — falls back to Calibri/system.
+- **Aptos font availability** — Aptos / Aptos Display are Microsoft fonts, not on Google Fonts. Templates declare `@font-face` with Microsoft CDN and gracefully fall back to Calibri → system sans. Visual identity holds at the system-sans level even if Aptos doesn't load.
 - **MCP HTTP key in URL** — the personal SSB MCP key is in `claude mcp list` config, not in repo. Not a leak risk for the skill itself, but the user should know not to commit `.claude.json` (it's in user's home dir, not repo, so safe by default).

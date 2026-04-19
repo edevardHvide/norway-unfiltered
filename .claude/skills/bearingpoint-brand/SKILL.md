@@ -5,15 +5,15 @@ description: Apply BearingPoint's official brand colors and typography to any ar
 
 # BearingPoint Brand Styling
 
-Use this skill when producing artifacts (HTML reports, Streamlit dashboards, plots, slides) that should follow BearingPoint's official brand identity rather than (or in addition to) SSB's public-statistics styling.
+Use this skill when producing artifacts (HTML reports, Streamlit dashboards, plots, slides) that should follow BearingPoint's official brand identity.
 
 ## When to apply
 
+- **Default for this repo's generated artifacts** — all `output/reports/` and `output/dashboards/` use BP brand. Data attribution still names SSB; visual identity is BearingPoint.
 - Internal BearingPoint-branded deliverables, slides, client decks
-- Reports clearly attributed to BearingPoint
 - When the user explicitly asks for "BearingPoint styling" or "BP brand"
 
-When the artifact is SSB-attributed public statistics, use the `ssb-dataviz` skill instead — do not mix palettes.
+For chart-type **selection** (line vs bar vs donut etc.) and statistical-integrity rules, defer to `ssb-dataviz`. This skill controls the **visual layer** (palette, fonts, spacing) — `ssb-dataviz` informs **chart choice**.
 
 ## Colors
 
@@ -81,6 +81,6 @@ When the artifact is SSB-attributed public statistics, use the `ssb-dataviz` ski
 
 ## Do not
 
-- Mix BearingPoint palette with SSB palette in the same artifact
+- Mix BearingPoint palette with SSB palette in the same artifact (pick one)
 - Use Accent 1 (red) and Accent 2 (coral) on adjacent series — they read as a single hue at distance
-- Apply this skill to public-stats outputs that should attribute SSB styling
+- Drop the SSB source attribution from charts that use SSB data — visual styling is BP, but data provenance must remain SSB
