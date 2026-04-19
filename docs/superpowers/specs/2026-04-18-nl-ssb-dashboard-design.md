@@ -1,7 +1,8 @@
 # Norway Unfiltered — Natural-Language SSB Dashboard
 
 **Date:** 2026-04-18
-**Status:** Approved design, awaiting spec review
+**Status:** ⚠️ SUPERSEDED by `2026-04-19-ssb-report-generator-design.md`
+**Reason for supersession:** Architecture changed from "Streamlit app + Anthropic API agent" to "repo-local Claude Code skill that generates HTML reports / Streamlit dashboards on demand using Claude Code subscription + SSB MCP." This spec is preserved for context only.
 **Replaces:** Current static JSON dashboard (`app.py` + `data/*.json`)
 
 ## Problem
