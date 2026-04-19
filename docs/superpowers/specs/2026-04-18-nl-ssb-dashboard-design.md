@@ -72,7 +72,7 @@ Each module is independently testable and has one clear job:
 - **`app.py`** — UI glue. No business logic beyond state transitions (idle → proposing → awaiting-approval → fetching → rendered).
 - **`agent.py`** — `ask(question: str) → Proposal` runs the Haiku tool-use loop and returns a structured proposal. Holds the system prompt.
 - **`ssb_tools.py`** — `search_tables`, `get_metadata`, `fetch_data`, `build_share_url`. Pure functions over HTTP. No Streamlit or Anthropic imports.
-- **`cache.py`** — `load(key) → DataFrame | None`, `save(key, df)`. Parquet files under `data/cache/`.
+- **`cache.py`** — `load(key) → DataFrame | None`, `save(key, df)`. Parquet files under `data/cache/`. Cache key is `sha256(table_id + "|" + canonical_filters)` where `canonical_filters` is `json.dumps(filters, sort_keys=True, separators=(",", ":"))` after sorting each Selection's `valueCodes` list and sorting the outer `filters` list by `variableCode`. This makes equivalent filter orderings produce identical keys.
 - **`renderer.py`** — `render(df, spec) → plotly.graph_objects.Figure`. SSB-styled. No IO.
 - **`config.py`** — env loading, API base URLs, cache dir, model constants.
 
@@ -98,17 +98,17 @@ Each module is independently testable and has one clear job:
 
 ## Chart spec schema
 
-A small JSON object the agent emits as part of its final structured message. Six fields, five optional. The renderer validates and applies defaults.
+A small JSON object the agent emits as part of its final structured message. Three required fields (`chart_type`, `x`, `title`); four optional (`y`, `color`, `aggregation`, `subtitle`). The renderer validates and applies defaults: `y` defaults to the first numeric column not equal to `x`; `color` defaults to `null` (single series); `aggregation` defaults to `"none"`; `subtitle` is auto-generated from `(table_id, last_updated, period)` if omitted.
 
 ```json
 {
-  "chart_type": "line | bar | horizontal_bar | donut | area | map | table | scorecard",
-  "x": "column_name",
-  "y": "column_name",
-  "color": "column_name | null",
-  "aggregation": "sum | mean | none",
-  "title": "Deklarativ innsikt, ikke beskrivelse",
-  "subtitle": "Kilde: SSB, tabell {id}. Periode: {range}."
+  "chart_type": "line | bar | horizontal_bar | donut | area | map | table | scorecard",  // required
+  "x": "column_name",                                                                     // required
+  "y": "column_name",                                                                     // optional
+  "color": "column_name | null",                                                          // optional
+  "aggregation": "sum | mean | none",                                                     // optional
+  "title": "Deklarativ innsikt, ikke beskrivelse",                                        // required
+  "subtitle": "Kilde: SSB, tabell {id}. Periode: {range}."                                // optional
 }
 ```
 
@@ -130,18 +130,39 @@ System prompt gives Haiku:
 3. Output contract: after tool calls complete, reply with exactly one JSON block conforming to the `Proposal` schema. No prose outside the block.
 4. Style rules condensed from `ssb-dataviz` skill (declarative title, chart-type selection matrix, color/axis conventions applied by the renderer — the agent just picks `chart_type`).
 
-Tool schemas:
+Tools exposed to Haiku during the proposal phase (only two):
 
 ```
 search_tables(query: str, include_discontinued: bool = False) → list[TableSummary]
 get_metadata(table_id: str) → TableMetadata
+```
+
+Functions called by `app.py` post-accept (NOT exposed to Haiku — this enforces the accept-gate at the schema level rather than relying on prompt instructions):
+
+```
 fetch_data(table_id: str, filters: list[Selection]) → dict (JSON-stat2)
 build_share_url(table_id: str, filters: list[Selection]) → str
 ```
 
-`fetch_data` is only called after user approval — the agent's proposal builds the filter list but does not execute the fetch. This enforces the accept-gate.
+`Proposal` schema (the JSON block Haiku emits as its terminal message):
 
-Haiku max turns: 6. Tool loop exits when Haiku returns a message with a `Proposal` JSON block instead of tool calls, or when 6 turns elapse (then show "agent could not find a match, try rephrasing").
+```json
+{
+  "table_id": "07459",                       // SSB table identifier
+  "table_title": "Folkemengde, etter ...",   // human-readable, from get_metadata
+  "filters": [                               // list of Selection objects passed to fetch_data
+    { "variableCode": "Region", "valueCodes": ["0301"] },
+    { "variableCode": "Tid", "valueCodes": ["top(5)"] }
+  ],
+  "chart_spec": { ... },                     // see Chart spec schema above
+  "rationale": "1–3 sentence Norwegian explanation of why this table + filters answer the question"
+}
+```
+
+**Loop bounds:**
+
+- Max **6 turns** (1 turn = one Anthropic API request, possibly with multiple tool calls). Tool loop exits when Haiku returns a message with a `Proposal` JSON block instead of tool calls, or when 6 turns elapse (then show "agent could not find a match, try rephrasing").
+- **30s timeout per individual API call** to Haiku (not the whole loop). Implemented via the Anthropic SDK's request timeout. A loop hitting all 6 turns can take up to ~3 minutes worst case; surface a non-blocking spinner with elapsed time so the user can refresh out if needed.
 
 ## SSB styling (per `ssb-dataviz` skill)
 
@@ -170,7 +191,7 @@ Keys held in `st.session_state`: `mode`, `question`, `proposal`, `current_df`, `
 ## Error handling
 
 - **Missing `ANTHROPIC_API_KEY`** → app renders a setup card on boot instead of the prompt bar, with link to `.env.example`. Prompt bar disabled.
-- **Agent timeout (>30s)** → cancel, show "Agent didn't respond in time, try again or rephrase".
+- **Agent timeout (>30s on a single Haiku call)** → cancel, show "Agent didn't respond in time, try again or rephrase". Loop-level timeout is the 6-turn cap, not a wall clock.
 - **Agent could not find table (6-turn limit hit)** → friendly message + suggestion to rephrase. History not appended.
 - **PxWebApi 400 (invalid filter)** → show the filter JSON and the SSB error message; offer "Discard and retry" button.
 - **PxWebApi 5xx or network** → 3 retries with exponential backoff (1s, 2s, 4s); if still failing, show error banner.
