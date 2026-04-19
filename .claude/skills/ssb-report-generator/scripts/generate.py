@@ -280,6 +280,74 @@ def render_dashboard(
     _atomic_write(out_dir / "README.md", readme_src)
 
 
+def _cmd_render(args) -> int:
+    today = _date.today()
+    base_slug = slugify(args.question)
+    slug = base_slug if args.overwrite else _resolve_slug_conflict(base_slug, args)
+    chart_spec = json.loads(args.chart_spec)
+    repo_root = args.repo_root.resolve()
+
+    if args.type == "html":
+        out_path = repo_root / "output" / "reports" / f"{slug}.html"
+        render_html(
+            out_path=out_path,
+            title=chart_spec.get("title", args.table_title),
+            rationale=args.rationale,
+            table_id=args.table_id,
+            generated=today,
+            data_file=args.data_file,
+            chart_spec=chart_spec,
+        )
+        rel_path = f"reports/{slug}.html"
+    else:
+        out_dir = repo_root / "output" / "dashboards" / slug
+        filterable = [c for c in args.filterable_columns.split(",") if c.strip()]
+        render_dashboard(
+            out_dir=out_dir,
+            slug=slug,
+            title=args.table_title,
+            rationale=args.rationale,
+            question=args.question,
+            table_id=args.table_id,
+            generated=today,
+            data_file=args.data_file,
+            chart_spec=chart_spec,
+            filterable_columns=filterable,
+            filters_json=args.filters,
+        )
+        rel_path = f"dashboards/{slug}/"
+
+    upsert_index_row(
+        repo_root / "output" / "INDEX.md",
+        generated=today,
+        title=chart_spec.get("title", args.table_title),
+        type_="HTML" if args.type == "html" else "Dashboard",
+        table_id=args.table_id,
+        path=rel_path,
+    )
+    print(f"OK {rel_path}")
+    return 0
+
+
+def _resolve_slug_conflict(base: str, args) -> str:
+    """If a same-typed artifact with the same slug already exists, append -2, -3, ..., up to -9."""
+    repo_root = args.repo_root.resolve()
+    if args.type == "html":
+        target = repo_root / "output" / "reports"
+        suffix = ".html"
+        exists = lambda s: (target / f"{s}{suffix}").exists()
+    else:
+        target = repo_root / "output" / "dashboards"
+        exists = lambda s: (target / s).exists()
+    if not exists(base):
+        return base
+    for i in range(2, 10):
+        candidate = f"{base}-{i}"
+        if not exists(candidate):
+            return candidate
+    raise SystemExit(f"Slug collision: 9 variants of '{base}' already exist. Pass an explicit --slug.")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -289,7 +357,20 @@ def main() -> int:
 
     h = sub.add_parser("hash")
     h.add_argument("--table-id", required=True)
-    h.add_argument("--filters", required=True, help="JSON array of Selection objects")
+    h.add_argument("--filters", required=True)
+
+    r = sub.add_parser("render")
+    r.add_argument("--question", required=True)
+    r.add_argument("--table-id", required=True)
+    r.add_argument("--table-title", required=True)
+    r.add_argument("--filters", required=True, help="JSON Selection list")
+    r.add_argument("--type", choices=["html", "dashboard"], required=True)
+    r.add_argument("--data-file", required=True, type=Path)
+    r.add_argument("--chart-spec", required=True, help="JSON chart spec")
+    r.add_argument("--rationale", required=True)
+    r.add_argument("--filterable-columns", default="", help="comma-separated")
+    r.add_argument("--repo-root", default=".", type=Path)
+    r.add_argument("--overwrite", action="store_true", help="Skip slug-conflict resolution; reuse existing slug (refresh path)")
 
     args = parser.parse_args()
     if args.cmd == "slugify":
@@ -298,6 +379,8 @@ def main() -> int:
     if args.cmd == "hash":
         print(cache_key(args.table_id, json.loads(args.filters)))
         return 0
+    if args.cmd == "render":
+        return _cmd_render(args)
     return 2
 
 
