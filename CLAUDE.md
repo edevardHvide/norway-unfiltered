@@ -21,3 +21,14 @@ from TRY. On first session in this repo, please ensure they are installed.
    this requires their email signup.
 
 3. Once both are in place, confirm to the user and proceed.
+
+## Generating reports + dashboards
+
+This repo includes a local skill `ssb-report-generator` (at `.claude/skills/ssb-report-generator/`) that turns Norwegian-statistics questions into either HTML reports or Streamlit dashboards using the SSB MCP. Visual identity is BearingPoint (palette in `.claude/skills/bearingpoint-brand/SKILL.md`).
+
+- Catalog of generated artifacts: `output/INDEX.md`
+- HTML reports: `output/reports/*.html`
+- Streamlit dashboards: `output/dashboards/<slug>/app.py`
+- Cached SSB data: `output/data/*.parquet` (gitignored)
+
+Just ask: "lag rapport om …" or "lag dashboard for …".
