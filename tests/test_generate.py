@@ -121,3 +121,27 @@ def test_upsert_index_sorts_newest_first(tmp_path):
     newer_pos = contents.find("Newer")
     older_pos = contents.find("Older")
     assert 0 < newer_pos < older_pos
+
+
+from generate import render_html
+
+
+def test_render_html_writes_artifact(tmp_path):
+    df_path = Path(__file__).parent / "fixtures" / "sample_07459.parquet"
+    out = tmp_path / "report.html"
+    render_html(
+        out_path=out,
+        title="Befolkning Oslo siste 5 år",
+        rationale="Folkemengden i Oslo har vokst jevnt gjennom femårsperioden.",
+        table_id="07459",
+        generated=date(2026, 4, 19),
+        data_file=df_path,
+        chart_spec={"chart_type": "line", "x": "Tid", "y": "value", "title": "Befolkning Oslo siste 5 år"},
+    )
+    html = out.read_text(encoding="utf-8")
+    assert "Befolkning Oslo siste 5 år" in html
+    assert "Kilde: SSB, tabell 07459" in html
+    assert "BearingPoint" in html
+    assert "#99171D" in html  # BP accent 1 in CSS
+    assert "Plotly.newPlot" in html
+    assert "717710" in html  # last data point baked into figure JSON

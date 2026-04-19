@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title }}</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+  <style>
+    :root {
+      --bp-dark-1: #000000;
+      --bp-light-1: #FFFFFF;
+      --bp-dark-2: #421799;
+      --bp-light-2: #FAF8F7;
+      --bp-accent-1: #99171D;
+      --bp-accent-2: #FF787A;
+      --bp-accent-3: #FFB1B5;
+      --bp-accent-4: #806659;
+      --bp-accent-5: #B2A59F;
+      --bp-link: #A070FF;
+      --bp-link-visited: #421799;
+      --bp-font-heading: 'Aptos Display', Calibri, sans-serif;
+      --bp-font-body: 'Aptos', Calibri, sans-serif;
+    }
+    body {
+      margin: 0;
+      background: var(--bp-light-2);
+      color: var(--bp-dark-1);
+      font-family: var(--bp-font-body);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 48px 32px; }
+    h1 {
+      font-family: var(--bp-font-heading);
+      font-weight: 700;
+      font-size: 32px;
+      letter-spacing: -0.5px;
+      margin: 0 0 8px 0;
+    }
+    .subtitle { color: var(--bp-accent-4); margin-bottom: 32px; font-size: 16px; }
+    .chart { background: var(--bp-light-1); padding: 24px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+    .footer {
+      margin-top: 24px;
+      color: var(--bp-accent-5);
+      font-size: 12px;
+      border-top: 1px solid var(--bp-accent-5);
+      padding-top: 12px;
+    }
+    a { color: var(--bp-link); }
+    a:visited { color: var(--bp-link-visited); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <div class="subtitle">{{ rationale }}</div>
+    <div class="chart">
+      <div id="chart"></div>
+    </div>
+    <div class="footer">
+      Kilde: SSB, tabell {{ table_id }}. Sist oppdatert: {{ generated }}.<br>
+      Generert av BearingPoint Norway Unfiltered.
+    </div>
+  </div>
+  <script>
+    const figure = {{ figure_json | safe }};
+    Plotly.newPlot('chart', figure.data, figure.layout, {responsive: true, displayModeBar: false});
+  </script>
+</body>
+</html>
