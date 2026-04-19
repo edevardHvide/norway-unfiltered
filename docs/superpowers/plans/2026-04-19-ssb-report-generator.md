@@ -413,8 +413,10 @@ import sys
 from pathlib import Path
 
 STOP_WORDS = {
+    # Plan-level stop words: low-content imperatives + artifact-type nouns + a few prepositions/articles.
+    # Note: "i", "og", "in" are NOT here — tests preserve them ("befolkning i Oslo", "Trøndelag og Møre", "crime in Bergen").
     "lag", "vis", "make", "show", "for", "om", "the", "a", "an",
-    "of", "on", "i", "and", "og", "in", "to", "report", "rapport",
+    "of", "on", "and", "to", "report", "rapport",
     "dashboard", "oppsummering", "summary", "interaktiv", "interactive",
 }
 
