@@ -234,6 +234,52 @@ def render_html(
     _atomic_write(out_path, html)
 
 
+def render_dashboard(
+    out_dir: Path,
+    slug: str,
+    title: str,
+    rationale: str,
+    question: str,
+    table_id: str,
+    generated: _date,
+    data_file: Path,
+    chart_spec: dict,
+    filterable_columns: list[str] | None = None,
+    filters_json: str = "[]",
+) -> None:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    data_filename = data_file.name
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATES_DIR)),
+        autoescape=False,  # python source, not HTML
+    )
+    app_tmpl = env.get_template("dashboard_app.py.j2")
+    app_src = app_tmpl.render(
+        title=title,
+        rationale=rationale,
+        table_id=table_id,
+        generated=generated.isoformat(),
+        data_filename=data_filename,
+        chart_x=chart_spec["x"],
+        chart_y=chart_spec.get("y", "value"),
+        chart_type=chart_spec["chart_type"],
+        filterable_columns=filterable_columns or [],
+    )
+    _atomic_write(out_dir / "app.py", app_src)
+
+    readme_tmpl = env.get_template("dashboard_readme.md.j2")
+    readme_src = readme_tmpl.render(
+        title=title,
+        question=question,
+        generated=generated.isoformat(),
+        slug=slug,
+        table_id=table_id,
+        filters_json=filters_json,
+        data_filename=data_filename,
+    )
+    _atomic_write(out_dir / "README.md", readme_src)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     sub = parser.add_subparsers(dest="cmd", required=True)

@@ -145,3 +145,32 @@ def test_render_html_writes_artifact(tmp_path):
     assert "#99171D" in html  # BP accent 1 in CSS
     assert "Plotly.newPlot" in html
     assert "717710" in html  # last data point baked into figure JSON
+
+
+from generate import render_dashboard
+
+
+def test_render_dashboard_writes_app_and_readme(tmp_path):
+    df_path = Path(__file__).parent / "fixtures" / "sample_07459.parquet"
+    dash_dir = tmp_path / "dashboards" / "befolkning-oslo"
+    render_dashboard(
+        out_dir=dash_dir,
+        slug="befolkning-oslo",
+        title="Befolkning Oslo siste 5 år",
+        rationale="Vekstkurve over fem år.",
+        question="lag dashboard for befolkning i Oslo",
+        table_id="07459",
+        generated=date(2026, 4, 19),
+        data_file=df_path,
+        chart_spec={"chart_type": "line", "x": "Tid", "y": "value"},
+        filterable_columns=["Tid"],
+        filters_json='[{"variableCode":"Region","valueCodes":["0301"]}]',
+    )
+    app = (dash_dir / "app.py").read_text()
+    assert "Befolkning Oslo siste 5 år" in app
+    assert "#99171D" in app
+    assert "Kilde: SSB, tabell 07459" in app
+    assert "BearingPoint" in app
+    readme = (dash_dir / "README.md").read_text()
+    assert "streamlit run output/dashboards/befolkning-oslo/app.py" in readme
+    assert "refresh dashboard befolkning-oslo" in readme

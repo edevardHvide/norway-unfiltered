@@ -1,0 +1,71 @@
+"""Generated Streamlit dashboard. Re-generate via the ssb-report-generator skill."""
+
+from pathlib import Path
+
+import pandas as pd
+import plotly.graph_objects as go
+import streamlit as st
+
+DATA_PATH = Path(__file__).parent.parent.parent / "data" / "{{ data_filename }}"
+BP_COLORS = ["#99171D", "#FF787A", "#421799", "#806659", "#B2A59F", "#FFB1B5"]
+
+st.set_page_config(page_title="{{ title }}", page_icon="📊", layout="wide")
+
+st.markdown(
+    """
+    <style>
+      .stApp { background: #FAF8F7; color: #000000; font-family: Aptos, Calibri, sans-serif; }
+      h1, h2, h3 { font-family: 'Aptos Display', Calibri, sans-serif; color: #000000; }
+      .footer { color: #B2A59F; font-size: 12px; border-top: 1px solid #B2A59F; padding-top: 8px; margin-top: 24px; }
+      a { color: #A070FF; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.title("{{ title }}")
+st.caption("{{ rationale }}")
+
+df = pd.read_parquet(DATA_PATH)
+
+{% if filterable_columns %}
+with st.sidebar:
+    st.header("Filtre")
+{%- for col in filterable_columns %}
+    sel_{{ col }} = st.multiselect("{{ col }}", sorted(df["{{ col }}"].unique().tolist()))
+    if sel_{{ col }}:
+        df = df[df["{{ col }}"].isin(sel_{{ col }})]
+{%- endfor %}
+{% endif %}
+
+x = "{{ chart_x }}"
+y = "{{ chart_y }}"
+chart_type = "{{ chart_type }}"
+
+fig = go.Figure()
+if chart_type == "line":
+    fig.add_trace(go.Scatter(x=df[x], y=df[y], mode="lines+markers", line=dict(color=BP_COLORS[0], width=3)))
+elif chart_type == "horizontal_bar":
+    fig.add_trace(go.Bar(x=df[y], y=df[x], orientation="h", marker_color=BP_COLORS[0]))
+elif chart_type == "bar":
+    fig.add_trace(go.Bar(x=df[x], y=df[y], marker_color=BP_COLORS[0]))
+else:
+    fig.add_trace(go.Scatter(x=df[x], y=df[y], mode="lines+markers", line=dict(color=BP_COLORS[0])))
+
+fig.update_layout(
+    font=dict(family="Aptos, Calibri, sans-serif", size=13, color="#000000"),
+    title_font=dict(family="Aptos Display, Calibri, sans-serif", size=20, color="#000000"),
+    plot_bgcolor="#FFFFFF",
+    paper_bgcolor="#FAF8F7",
+    margin=dict(l=40, r=20, t=20, b=40),
+    showlegend=False,
+)
+fig.update_xaxes(showgrid=False, linecolor="#B2A59F")
+fig.update_yaxes(gridcolor="#FAF8F7", linecolor="#B2A59F", rangemode="tozero" if chart_type in {"bar", "horizontal_bar"} else "normal")
+
+st.plotly_chart(fig, use_container_width=True)
+
+st.markdown(
+    f'<div class="footer">Kilde: SSB, tabell {{ table_id }}. Sist oppdatert: {{ generated }}.<br>Generert av BearingPoint Norway Unfiltered.</div>',
+    unsafe_allow_html=True,
+)
