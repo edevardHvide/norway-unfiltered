@@ -38,3 +38,43 @@ def test_slugify_idempotent():
 def test_slugify_strips_special_punctuation():
     # KPI is a meaningful content acronym — not a stop word.
     assert slugify("KPI: konsumprisindeks (2025=100)?") == "kpi-konsumprisindeks-2025-100"
+
+
+from generate import cache_key
+
+
+def test_cache_key_deterministic():
+    f1 = [{"variableCode": "Region", "valueCodes": ["0301"]}]
+    assert cache_key("07459", f1) == cache_key("07459", f1)
+
+
+def test_cache_key_invariant_to_filter_order():
+    f1 = [
+        {"variableCode": "Region", "valueCodes": ["0301"]},
+        {"variableCode": "Tid", "valueCodes": ["top(5)"]},
+    ]
+    f2 = list(reversed(f1))
+    assert cache_key("07459", f1) == cache_key("07459", f2)
+
+
+def test_cache_key_invariant_to_value_order():
+    f1 = [{"variableCode": "Region", "valueCodes": ["0301", "1103"]}]
+    f2 = [{"variableCode": "Region", "valueCodes": ["1103", "0301"]}]
+    assert cache_key("07459", f1) == cache_key("07459", f2)
+
+
+def test_cache_key_changes_with_table_id():
+    f = [{"variableCode": "Region", "valueCodes": ["0301"]}]
+    assert cache_key("07459", f) != cache_key("99999", f)
+
+
+def test_cache_key_changes_with_filters():
+    f1 = [{"variableCode": "Region", "valueCodes": ["0301"]}]
+    f2 = [{"variableCode": "Region", "valueCodes": ["1103"]}]
+    assert cache_key("07459", f1) != cache_key("07459", f2)
+
+
+def test_cache_key_format():
+    out = cache_key("07459", [{"variableCode": "X", "valueCodes": ["1"]}])
+    assert len(out) == 8
+    assert all(c in "0123456789abcdef" for c in out)

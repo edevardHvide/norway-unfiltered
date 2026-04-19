@@ -58,14 +58,38 @@ def slugify(text: str) -> str:
     return cut.rstrip("-")
 
 
+def cache_key(table_id: str, filters: list[dict]) -> str:
+    """Stable 8-char hex hash for a (table_id, filters) pair.
+
+    Canonicalizes by sorting valueCodes within each Selection and sorting the
+    outer filter list by variableCode, so equivalent orderings produce identical
+    keys.
+    """
+    canonical = sorted(
+        ({"variableCode": f["variableCode"], "valueCodes": sorted(f["valueCodes"])} for f in filters),
+        key=lambda f: f["variableCode"],
+    )
+    payload = table_id + "|" + json.dumps(canonical, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:8]
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     sub = parser.add_subparsers(dest="cmd", required=True)
+
     s = sub.add_parser("slugify")
     s.add_argument("--question", required=True)
+
+    h = sub.add_parser("hash")
+    h.add_argument("--table-id", required=True)
+    h.add_argument("--filters", required=True, help="JSON array of Selection objects")
+
     args = parser.parse_args()
     if args.cmd == "slugify":
         print(slugify(args.question))
+        return 0
+    if args.cmd == "hash":
+        print(cache_key(args.table_id, json.loads(args.filters)))
         return 0
     return 2
 
