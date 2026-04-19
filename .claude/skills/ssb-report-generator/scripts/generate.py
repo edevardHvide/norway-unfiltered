@@ -16,7 +16,9 @@ import hashlib
 import json
 import re
 import sys
+from datetime import date as _date
 from pathlib import Path
+from typing import NamedTuple
 
 STOP_WORDS = {
     "lag", "vis", "make", "show", "for", "om", "the", "a", "an",
@@ -71,6 +73,58 @@ def cache_key(table_id: str, filters: list[dict]) -> str:
     )
     payload = table_id + "|" + json.dumps(canonical, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:8]
+
+
+class IndexRow(NamedTuple):
+    generated: _date
+    title: str
+    type_: str
+    table_id: str
+    path: str
+
+    def to_md(self) -> str:
+        return f"| {self.generated.isoformat()} | {self.title} | {self.type_} | {self.table_id} | {self.path} |"
+
+
+_HEADER = "# Norway Unfiltered — Generated Artifacts\n\n> Auto-maintained by `.claude/skills/ssb-report-generator`. Do not edit manually — your changes will be overwritten on next generation.\n\n| Generated | Title | Type | SSB Table | Path |\n|-----------|-------|------|-----------|------|\n"
+
+
+def _parse_existing_rows(text: str) -> list[IndexRow]:
+    rows: list[IndexRow] = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line.startswith("| 20"):  # data row starts with a date in 20xx
+            continue
+        parts = [p.strip() for p in line.strip("|").split("|")]
+        if len(parts) != 5:
+            continue
+        try:
+            d = _date.fromisoformat(parts[0])
+        except ValueError:
+            continue
+        rows.append(IndexRow(d, parts[1], parts[2], parts[3], parts[4]))
+    return rows
+
+
+def render_index(rows: list[IndexRow]) -> str:
+    sorted_rows = sorted(rows, key=lambda r: r.generated, reverse=True)
+    body = "\n".join(r.to_md() for r in sorted_rows)
+    return _HEADER + (body + "\n" if body else "")
+
+
+def upsert_index_row(
+    index_path: Path,
+    generated: _date,
+    title: str,
+    type_: str,
+    table_id: str,
+    path: str,
+) -> None:
+    text = index_path.read_text() if index_path.exists() else _HEADER
+    rows = _parse_existing_rows(text)
+    rows = [r for r in rows if r.path != path]  # remove existing same-path row
+    rows.append(IndexRow(generated, title, type_, table_id, path))
+    index_path.write_text(render_index(rows))
 
 
 def main() -> int:

@@ -78,3 +78,46 @@ def test_cache_key_format():
     out = cache_key("07459", [{"variableCode": "X", "valueCodes": ["1"]}])
     assert len(out) == 8
     assert all(c in "0123456789abcdef" for c in out)
+
+
+from datetime import date
+from generate import upsert_index_row, render_index
+
+
+def test_upsert_index_appends_new_row(tmp_path):
+    index = tmp_path / "INDEX.md"
+    index.write_text("# Index\n\n| Generated | Title | Type | SSB Table | Path |\n|---|---|---|---|---|\n")
+    upsert_index_row(
+        index,
+        generated=date(2026, 4, 19),
+        title="Befolkning Oslo",
+        type_="HTML",
+        table_id="07459",
+        path="reports/befolkning-oslo.html",
+    )
+    contents = index.read_text()
+    assert "Befolkning Oslo" in contents
+    assert "07459" in contents
+    assert "reports/befolkning-oslo.html" in contents
+
+
+def test_upsert_index_updates_date_on_same_path(tmp_path):
+    index = tmp_path / "INDEX.md"
+    index.write_text("# Index\n\n| Generated | Title | Type | SSB Table | Path |\n|---|---|---|---|---|\n")
+    upsert_index_row(index, date(2026, 4, 19), "T", "HTML", "07459", "reports/x.html")
+    upsert_index_row(index, date(2026, 4, 20), "T", "HTML", "07459", "reports/x.html")
+    contents = index.read_text()
+    assert contents.count("reports/x.html") == 1
+    assert "2026-04-20" in contents
+    assert "2026-04-19" not in contents
+
+
+def test_upsert_index_sorts_newest_first(tmp_path):
+    index = tmp_path / "INDEX.md"
+    index.write_text("# Index\n\n| Generated | Title | Type | SSB Table | Path |\n|---|---|---|---|---|\n")
+    upsert_index_row(index, date(2026, 4, 18), "Older", "HTML", "1", "reports/older.html")
+    upsert_index_row(index, date(2026, 4, 20), "Newer", "HTML", "2", "reports/newer.html")
+    contents = index.read_text()
+    newer_pos = contents.find("Newer")
+    older_pos = contents.find("Older")
+    assert 0 < newer_pos < older_pos
