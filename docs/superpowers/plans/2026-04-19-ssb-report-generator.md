@@ -74,7 +74,7 @@ pytest>=8.0
 - [ ] **Step 3: Verify .gitignore has the cache entry**
 
 Run: `grep -F 'output/data/' /Users/edevard/norway-unfiltered/.gitignore`
-Expected: prints `output/data/`. If missing, append it. (Spec says it's already added.)
+Expected: prints `output/data/`. If missing, append it via `echo 'output/data/' >> /Users/edevard/norway-unfiltered/.gitignore`.
 
 - [ ] **Step 4: Commit cleanup**
 
@@ -206,7 +206,9 @@ python .claude/skills/ssb-report-generator/scripts/generate.py render \
     --rationale "<1–3 Norwegian sentences>"
 ```
 
-`generate.py` produces a slug, renders the right template, writes the artifact, and appends to INDEX.md.
+`generate.py` produces a slug, renders the right template, writes the artifact, and updates INDEX.md.
+
+**For refresh requests** ("refresh dashboard <slug>", "oppdater rapport <slug>"): look up the original question + filters in `output/INDEX.md` (and the existing artifact for the chart spec if needed), bypass the parquet cache when calling `ssb_get_data`, and pass `--overwrite` to `generate.py render` so the existing slug is reused (no `-2` suffix) and the INDEX row's date advances in place.
 
 ### 6. Reply to user
 
@@ -373,7 +375,8 @@ def test_slugify_idempotent():
 
 
 def test_slugify_strips_special_punctuation():
-    assert slugify("KPI: konsumprisindeks (2025=100)?") == "konsumprisindeks-2025-100"
+    # KPI is a meaningful content acronym — not a stop word.
+    assert slugify("KPI: konsumprisindeks (2025=100)?") == "kpi-konsumprisindeks-2025-100"
 ```
 
 - [ ] **Step 3: Run the tests and verify they fail**
@@ -933,8 +936,11 @@ def _build_figure(df: pd.DataFrame, spec: dict) -> go.Figure:
         margin=dict(l=40, r=20, t=60, b=40),
         showlegend=bool(color),
     )
-    fig.update_xaxes(showgrid=False, linecolor="#B2A59F")
-    fig.update_yaxes(gridcolor="#FAF8F7", linecolor="#B2A59F", rangemode="tozero" if chart_type in {"bar", "horizontal_bar"} else "normal")
+    # Bars must start at 0 on their VALUE axis. Vertical bars: Y axis. Horizontal bars: X axis (we swap data in _trace).
+    x_rangemode = "tozero" if chart_type == "horizontal_bar" else "normal"
+    y_rangemode = "tozero" if chart_type == "bar" else "normal"
+    fig.update_xaxes(showgrid=False, linecolor="#B2A59F", rangemode=x_rangemode)
+    fig.update_yaxes(gridcolor="#FAF8F7", linecolor="#B2A59F", rangemode=y_rangemode)
     return fig
 
 
@@ -1339,6 +1345,7 @@ def main() -> int:
     r.add_argument("--rationale", required=True)
     r.add_argument("--filterable-columns", default="", help="comma-separated")
     r.add_argument("--repo-root", default=".", type=Path)
+    r.add_argument("--overwrite", action="store_true", help="Skip slug-conflict resolution; reuse existing slug (refresh path)")
 
     args = parser.parse_args()
     if args.cmd == "slugify":
@@ -1354,7 +1361,8 @@ def main() -> int:
 
 def _cmd_render(args) -> int:
     today = _date.today()
-    slug = _resolve_slug_conflict(slugify(args.question), args)
+    base_slug = slugify(args.question)
+    slug = base_slug if args.overwrite else _resolve_slug_conflict(base_slug, args)
     chart_spec = json.loads(args.chart_spec)
     repo_root = args.repo_root.resolve()
 
@@ -1528,7 +1536,13 @@ Expect: Streamlit opens with BP styling, sidebar filters, chart renders.
 
 - [ ] **Step 5: Refresh round-trip**
 
-Ask: `refresh dashboard <slug-from-step-4>`. Verify the parquet file's mtime updates and the dashboard re-renders. INDEX.md row's date should advance.
+Ask: `refresh dashboard <slug-from-step-4>`. Verify:
+- Parquet file's mtime updates (cache bypassed)
+- Dashboard `app.py` is re-rendered (mtime updates)
+- The slug is **unchanged** — no new `<slug>-2/` directory created
+- `output/INDEX.md` shows the **same single row** for this dashboard, with its `Generated` date advanced to today
+
+If a `<slug>-2/` appears or INDEX gains a duplicate row, the refresh path failed to pass `--overwrite` to `generate.py render` — fix the SKILL.md workflow before continuing.
 
 - [ ] **Step 6: Empty-result handling**
 
