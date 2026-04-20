@@ -4,3 +4,4 @@
 
 | Generated | Title | Type | SSB Table | Path |
 |-----------|-------|------|-----------|------|
+| 2026-04-20 | Registrerte arbeidsledige per fylke | Dashboard | 13563 | dashboards/arbeidsledighet-per-fylke/ |
